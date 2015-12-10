@@ -66,15 +66,15 @@ INSTALL_DATA_PRIVATE = /usr/bin/install -c -m 600
 RPMDIR = RPMBUILD
 
 SERVER = netopeer-server
-SERVER_LIBS = -lnetconf    -lxml2
+SERVER_LIBS = -lnetconf -lnetconf    -lxml2
 SERVER_SRCS =  src/server.c \
 	src/cfgnetopeer_transapi.c \
 	src/netconf_server_transapi.c \
-	
+	src/ssh/server_ssh.c src/ssh/cfgnetopeer_transapi_ssh.c src/ssh/netconf_server_transapi_ssh.c
 SERVER_HDRS = src/server.h \
 	src/cfgnetopeer_transapi.h \
 	src/netconf_server_transapi.h \
-	
+	src/ssh/server_ssh.h src/ssh/cfgnetopeer_transapi_ssh.h src/ssh/netconf_server_transapi_ssh.h
 SERVER_MODULES_CONF = config/Netopeer.xml \
 	config/NETCONF-server.xml
 SERVER_OBJS = $(SERVER_SRCS:%.c=$(OBJDIR)/%.o)
@@ -86,8 +86,8 @@ CONFIGURATOR_SRCS = configurator/setup.py \
 	configurator/netopeer/*.py \
 	configurator/netopeer/*.py.in
 
-CFLAGS = -Wall -Wextra -O3 
-CPPFLAGS =    -DRCSID=\"$(IDNOGIT)\" -I/usr/include/libxml2
+CFLAGS = -Wall -Wextra -O3  -DNP_SSH
+CPPFLAGS =    -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2
 DEFINE = -DBINDIR=\"$(BINDIR)\" -DCFG_DIR=\"$(CFGDIR)\" -DMODULES_CFG_DIR=\"$(DESTDIR)/$(modulesdir)/\" -DVERSION=\"$(VERSION)\"
 
 OBJDIR= .obj

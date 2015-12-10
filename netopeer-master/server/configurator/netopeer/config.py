@@ -22,6 +22,6 @@ paths = {
 
 options = {
 		'user' : 'root',\
-		'ssh' : 'no',\
+		'ssh' : 'yes',\
 		'tls' : 'no',\
 	}

@@ -39,7 +39,7 @@ LNCTOOL = dev-tools/lnctool/lnctool
 
 # Various configurable paths (remember to edit Makefile.in, not Makefile)
 srcdir = .
-abs_srcdir = /root/netconf/libnetconf-master
+abs_srcdir = /root/netconf/netopeer-master/libnetconf-master
 prefix = /usr
 exec_prefix = ${prefix}
 datarootdir = ${prefix}/share

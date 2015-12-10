@@ -6,7 +6,7 @@
 		</model>
 		<model-main>
 			<path>${prefix}/etc/netopeer/cfgnetopeer/ietf-netconf-server.yin</path>
-			
+			<feature>ssh</feature><feature>inbound-ssh</feature><feature>outbound-ssh</feature>
 		</model-main>
 	</data-models>
 	<repo>

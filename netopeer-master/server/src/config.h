@@ -64,7 +64,7 @@
 #endif
 
 /* maximal value from the sizes of specific client implementations */
-#define CLIENT_STRUCT_MAX_SIZE 
+#define CLIENT_STRUCT_MAX_SIZE sizeof(struct client_struct_ssh)
 
 /* the initial size of the reading buffer */
 #define BASE_READ_BUFFER_SIZE 2048

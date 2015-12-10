@@ -45,6 +45,18 @@ PATH: /usr/sbin
 PATH: /usr/bin
 PATH: /bin
 PATH: /home/public/scripts
+PATH: //root/bin/
+PATH: .
+PATH: /root/shbin
+PATH: /root/python
+PATH: /root/shbin
+PATH: /root/python
+PATH: usr/X/bin
+PATH: /usr/local/bin
+PATH: /usr/sbin
+PATH: /usr/bin
+PATH: /bin
+PATH: /home/public/scripts
 
 
 ## ----------- ##
@@ -1610,8 +1622,8 @@ configure:13982: result: yes
 configure:13991: checking for shmc
 configure:13991: gcc -o conftest -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden   -DRCSID=\"$(IDGIT)\" -DENABLE_TLS  conftest.c -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -lm -lxml2 -lz -lm  -ldl -lssl >&5
 <command-line>: warning: missing terminating " character
-/tmp/ccpx8g43.o: In function `main':
-/root/netconf/libnetconf-master/conftest.c:103: undefined reference to `shmc'
+/tmp/ccPe4XJg.o: In function `main':
+/root/netconf/netopeer-master/libnetconf-master/conftest.c:103: undefined reference to `shmc'
 collect2: ld returned 1 exit status
 configure:13991: $? = 1
 configure: failed program was:
