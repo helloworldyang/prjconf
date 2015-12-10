@@ -169,12 +169,19 @@ int server_transapi_init_ssh(void) {
 	/* set device according to defaults */
 	nc_verb_verbose("Setting the default SSH configuration for the ietf-netconf-server module...");
 
-	doc = xmlReadDoc(BAD_CAST "<netconf xmlns=\"urn:ietf:params:xml:ns:yang:ietf-netconf-server\"><ssh><listen><port>830</port></listen></ssh></netconf>",
+
+	doc = xmlReadDoc(BAD_CAST "<netconf xmlns=\"urn:ietf:params:xml:ns:yang:ietf-netconf-server\"><ssh><listen><port>1830</port></listen></ssh></netconf>",
 		NULL, NULL, 0);
+
+    perror("this is a fake xml containing the port of SSH");
+
 	if (doc == NULL) {
 		nc_verb_error("Unable to parse the default SSH ietf-netconf-server configuration.");
 		return EXIT_FAILURE;
 	}
+
+    perror("this is a fake xml containing the port of SSH:%d", 
+            doc->children->children->children->children);
 
 	if (callback_srv_netconf_srv_ssh_srv_listen_srv_port(NULL, XMLDIFF_ADD, NULL, doc->children->children->children->children, &error) != EXIT_SUCCESS) {
 		if (error != NULL) {

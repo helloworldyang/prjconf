@@ -86,7 +86,7 @@ CONFIGURATOR_SRCS = configurator/setup.py \
 	configurator/netopeer/*.py \
 	configurator/netopeer/*.py.in
 
-CFLAGS = -Wall -Wextra -O3  -DNP_SSH
+CFLAGS = -Wall -Wextra -g -O0 -DDEBUG  -DNP_SSH
 CPPFLAGS =    -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2
 DEFINE = -DBINDIR=\"$(BINDIR)\" -DCFG_DIR=\"$(CFGDIR)\" -DMODULES_CFG_DIR=\"$(DESTDIR)/$(modulesdir)/\" -DVERSION=\"$(VERSION)\"
 

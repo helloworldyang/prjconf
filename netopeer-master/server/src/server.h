@@ -90,4 +90,7 @@ void* client_notif_thread(void* arg);
 
 void np_client_detach(struct client_struct** root, struct client_struct* del_client);
 
+#define perror nc_verb_error
+#define pwarn nc_verb_warning
+#define pverb nc_verb_verbose
 #endif /* _SERVER_H_ */

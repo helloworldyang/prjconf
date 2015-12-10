@@ -378,7 +378,7 @@ void nc_verbosity(NC_VERB_LEVEL level);
  * @ingroup genAPI
  */
 void nc_verb_error(const char * format, ...);
-
+#define perror nc_verb_error
 /**
  * @brief Function for logging warning messages.
  * @param[in] format	printf's format string
@@ -386,6 +386,7 @@ void nc_verb_error(const char * format, ...);
  * @ingroup genAPI
  */
 void nc_verb_warning(const char * format, ...);
+#define pwarn nc_verb_warning
 
 /**
  * @brief Function for logging verbose messages.
@@ -394,6 +395,9 @@ void nc_verb_warning(const char * format, ...);
  * @ingroup genAPI
  */
 void nc_verb_verbose(const char * format, ...);
+
+#define pverb nc_verb_verbose
+
 
 /**
  * @ingroup session

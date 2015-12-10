@@ -225,6 +225,7 @@ int callback_srv_netconf_srv_listen_srv_port(XMLDIFF_OP op, xmlNodePtr old_node,
 		netopeer_options.binds_change_flag = 1;
 
 		nc_verb_verbose("%s: %s listening on the port %d", __func__, (transport == NC_TRANSPORT_SSH ? "SSH" : "TLS"), new_port);
+		perror("%s: %s listening on the port %d", __func__, (transport == NC_TRANSPORT_SSH ? "SSH" : "TLS"), new_port);
 	}
 
 	/* BINDS UNLOCK */
