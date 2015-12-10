@@ -39,14 +39,14 @@ LNCTOOL = dev-tools/lnctool/lnctool
 
 # Various configurable paths (remember to edit Makefile.in, not Makefile)
 srcdir = .
-abs_srcdir = /root/netconf/netopeer-master/libnetconf-master
-prefix = /usr/local
+abs_srcdir = /root/netconf/libnetconf-master
+prefix = /usr
 exec_prefix = ${prefix}
 datarootdir = ${prefix}/share
 datadir = ${datarootdir}
 bindir = ${exec_prefix}/bin
 includedir = ${prefix}/include
-libdir =  ${exec_prefix}/lib
+libdir =  /usr/lib64
 mandir = ${datarootdir}/man
 readlink = readlink
 libtool = ./libtool
@@ -54,7 +54,7 @@ libtool = ./libtool
 VERSION = $(shell cut -f1 "$(srcdir)/VERSION" | tr -d '\n')
 # version for soname:
 ABICOMPAT_VER = $(shell echo $(VERSION) | cut -d. -f1,2)
-RELEASE = 0
+RELEASE = 0_trunk
 # libtool version info
 version_info = 0:10:0
 
@@ -76,7 +76,7 @@ IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20
 IDNOGIT = "released as version $(VERSION)"
 LIBS =  -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -lm -lxml2 -lz -lm  -ldl -lssl -lrt
 CFLAGS = -Wall -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden 
-CPPFLAGS = -DNC_WORKINGDIR_PATH=\"$(NC_WORKINGDIR_PATH)\" -DSETBIT=$(SETBIT)  -DRCSID=\"$(IDNOGIT)\" -DENABLE_TLS -DPOSIX_SHM
+CPPFLAGS = -DNC_WORKINGDIR_PATH=\"$(NC_WORKINGDIR_PATH)\" -DSETBIT=$(SETBIT)  -DRCSID=\"$(IDGIT)\" -DENABLE_TLS -DPOSIX_SHM
 LIBTOOL = $(libtool) --tag=CC --quiet
 HAVE_PYANG = yes
 HAVE_XSLTPROC = yes

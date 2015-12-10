@@ -1,7 +1,7 @@
 Summary: NETCONF protocol library for NETCONF applications.
 Name: libnetconf
 Version: 0.10.0
-Release: 0
+Release: 0_trunk
 URL: http://www.liberouter.org/
 Source: https://www.liberouter.org/repo/SOURCES/%{name}-%{version}-%{release}.tar.gz
 Group: Liberouter
