@@ -180,6 +180,8 @@ static struct chan_struct* client_find_channel_by_sid(struct client_struct_ssh* 
 static int create_netconf_session(struct client_struct_ssh* client, struct chan_struct* channel) {
 	struct nc_cpblts* caps = NULL;
 
+    perror("yangg, here is creating a new netconf session, from SSH or TLS connection");
+
 	caps = nc_session_get_cpblts_default();
 	channel->nc_sess = nc_session_accept_libssh_channel(caps, client->username, channel->ssh_chan);
 	nc_cpblts_free(caps);
@@ -449,6 +451,11 @@ int np_ssh_client_netconf_rpc(struct client_struct_ssh* client) {
 	int closing = 0, skip_sleep = 0;
 	struct nc_err* err;
 	struct chan_struct* chan;
+
+    /* killed me put this log here, so comments it. 
+     * otherwise the SSH heartbeat message will also trigger it
+     */
+    /* perror("yangg: np_ssh_client_netconf_rpc, get a client rpc message");*/
 
 	if (client->to_free) {
 		return 1;
