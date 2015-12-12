@@ -2,9 +2,9 @@
 IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20)"
 
 CC = gcc
-CFLAGS = -Wall -Wextra -I../../src/ -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden 
+CFLAGS = -Wall -Wextra -I../../src/ -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden -pthread
 CPPFLAGS = -DRCSID=\"$(IDGIT)\" -DNC_WORKINGDIR_PATH=\"\" -DDISABLE_VALIDATION -DDISABLE_URL -DDISABLE_LIBSSH
-LIBS = -lxml2 -lz -lm -pthread -lreadline -lxslt -ldl -lrt
+LIBS = -lxml2 -lz -lm -ldl -pthread -lreadline -lxslt -ldl -lrt
 
 OBJDIR = .obj
 

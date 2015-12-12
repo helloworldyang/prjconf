@@ -39,7 +39,7 @@ LNCTOOL = dev-tools/lnctool/lnctool
 
 # Various configurable paths (remember to edit Makefile.in, not Makefile)
 srcdir = .
-abs_srcdir = /root/netconf/netopeer-master/libnetconf-master
+abs_srcdir = /home/yangg/netconf/libnetconf-master
 prefix = /usr
 exec_prefix = ${prefix}
 datarootdir = ${prefix}/share
@@ -54,15 +54,15 @@ libtool = ./libtool
 VERSION = $(shell cut -f1 "$(srcdir)/VERSION" | tr -d '\n')
 # version for soname:
 ABICOMPAT_VER = $(shell echo $(VERSION) | cut -d. -f1,2)
-RELEASE = 0_trunk
+RELEASE = 0
 # libtool version info
 version_info = 0:10:0
 
 CC = gcc
-DOXYGEN = doxygen
+DOXYGEN = no
 DOXYGEN_CONFIG = Doxyfile
 DOXYGEN_DIR = $(shell cat $(DOXYGEN_CONFIG) | grep '^OUTPUT_DIRECTORY' | sed 's/.*=//')
-RPMBUILD = rpmbuild
+RPMBUILD = no
 LDCONFIG = ldconfig
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
@@ -74,8 +74,8 @@ SETUSER =
 SETGROUP = 
 IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20)"
 IDNOGIT = "released as version $(VERSION)"
-LIBS =  -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -lm -lxml2 -lz -lm  -ldl -lssl -lrt
-CFLAGS = -Wall -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden 
+LIBS =  -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt
+CFLAGS = -Wall -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden -pthread
 CPPFLAGS = -DNC_WORKINGDIR_PATH=\"$(NC_WORKINGDIR_PATH)\" -DSETBIT=$(SETBIT)  -DRCSID=\"$(IDGIT)\" -DENABLE_TLS -DPOSIX_SHM
 LIBTOOL = $(libtool) --tag=CC --quiet
 HAVE_PYANG = yes

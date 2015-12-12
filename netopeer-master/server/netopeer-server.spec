@@ -22,7 +22,7 @@ network devices. This package contains its server part.
 %setup
 
 %build
-./configure --with-distro=redhat --prefix=%{_prefix} --sysconfdir=%{_sysconfdir} --with-rpm ;
+./configure --with-distro=redhat --prefix=%{_prefix} --sysconfdir=%{_sysconfdir} --with-rpm  --enable-tls;
 make
 make doc
 

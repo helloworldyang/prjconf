@@ -53,11 +53,11 @@ mandir = ${datarootdir}/man
 sysconfdir = ${prefix}/etc
 modulesdir = ${prefix}/etc/netopeer/modules.conf.d/
 
-TOPDIR = /root/netconf/netopeer-master/server
+TOPDIR = /home/yangg/netconf/netopeer-master/server
 #if you edit this path, edit also configurator/config.py.in path
 CFGDIR = $(DESTDIR)/$(sysconfdir)/netopeer
 CC = gcc
-RPMBUILD = rpmbuild
+RPMBUILD = 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_DATA = ${INSTALL} -m 644
@@ -66,15 +66,15 @@ INSTALL_DATA_PRIVATE = /usr/bin/install -c -m 600
 RPMDIR = RPMBUILD
 
 SERVER = netopeer-server
-SERVER_LIBS = -lnetconf -lnetconf    -lxml2
+SERVER_LIBS = -lcrypto -lssl -lnetconf -lcrypt -lssh -lnetconf -lnetconf   -lxml2
 SERVER_SRCS =  src/server.c \
 	src/cfgnetopeer_transapi.c \
 	src/netconf_server_transapi.c \
-	src/ssh/server_ssh.c src/ssh/cfgnetopeer_transapi_ssh.c src/ssh/netconf_server_transapi_ssh.c
+	src/ssh/server_ssh.c src/ssh/cfgnetopeer_transapi_ssh.c src/ssh/netconf_server_transapi_ssh.c src/tls/server_tls.c src/tls/cfgnetopeer_transapi_tls.c src/tls/netconf_server_transapi_tls.c
 SERVER_HDRS = src/server.h \
 	src/cfgnetopeer_transapi.h \
 	src/netconf_server_transapi.h \
-	src/ssh/server_ssh.h src/ssh/cfgnetopeer_transapi_ssh.h src/ssh/netconf_server_transapi_ssh.h
+	src/ssh/server_ssh.h src/ssh/cfgnetopeer_transapi_ssh.h src/ssh/netconf_server_transapi_ssh.h src/tls/server_tls.h src/tls/cfgnetopeer_transapi_tls.h src/tls/netconf_server_transapi_tls.h
 SERVER_MODULES_CONF = config/Netopeer.xml \
 	config/NETCONF-server.xml
 SERVER_OBJS = $(SERVER_SRCS:%.c=$(OBJDIR)/%.o)
@@ -86,8 +86,8 @@ CONFIGURATOR_SRCS = configurator/setup.py \
 	configurator/netopeer/*.py \
 	configurator/netopeer/*.py.in
 
-CFLAGS = -Wall -Wextra -g -O0 -DDEBUG  -DNP_SSH
-CPPFLAGS =    -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2
+CFLAGS = -Wall -Wextra -g -O0 -DDEBUG -pthread -DNP_SSH -DNP_TLS
+CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2
 DEFINE = -DBINDIR=\"$(BINDIR)\" -DCFG_DIR=\"$(CFGDIR)\" -DMODULES_CFG_DIR=\"$(DESTDIR)/$(modulesdir)/\" -DVERSION=\"$(VERSION)\"
 
 OBJDIR= .obj
@@ -104,7 +104,7 @@ CFGS =	config/netopeer-cfgnetopeer.yin \
 	config/ietf-netconf-server-config.rng \
 	config/ietf-netconf-server-gdefs-config.rng \
 	config/ietf-netconf-server-schematron.xsl \
-	
+	config/datastore.xml
 
 CFGS_TAR = $(CFGS) \
 	config/netopeer-cfgnetopeer.yang \

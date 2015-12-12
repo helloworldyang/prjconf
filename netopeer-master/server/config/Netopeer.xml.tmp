@@ -3,7 +3,7 @@
 	<data-models>
 		<model-main>
 			<path>${prefix}/etc/netopeer/cfgnetopeer/netopeer-cfgnetopeer.yin</path>
-			<feature>dynamic-modules</feature><feature>ssh</feature>
+			<feature>dynamic-modules</feature><feature>ssh</feature><feature>tls</feature>
 		</model-main>
 	</data-models>
 	<repo>

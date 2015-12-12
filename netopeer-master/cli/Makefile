@@ -42,7 +42,7 @@ IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20
 IDNOGIT = "released as version $(VERSION)"
 
 srcdir = .
-abs_srcdir = /root/netconf/netopeer-master/cli
+abs_srcdir = /home/yangg/netconf/netopeer-master/cli
 prefix = /usr/local
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
@@ -53,12 +53,12 @@ readlink = readlink
 CC = gcc
 LIBS = -lxml2 -lreadline -lnetconf  
 CFLAGS = -Wall -I/usr/include/libxml2  -O3 -DNDEBUG -pthread
-CPPFLAGS =  -DRCSID=\"$(IDNOGIT)\" -DVERSION=\"$(VERSION)\"
+CPPFLAGS =  -DRCSID=\"$(IDGIT)\" -DVERSION=\"$(VERSION)\"
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_DATA = ${INSTALL} -m 644
 
-RPMBUILD = rpmbuild
+RPMBUILD = no
 RPMDIR = RPMBUILD
 
 INCLUDES=
