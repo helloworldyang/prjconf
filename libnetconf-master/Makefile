@@ -75,7 +75,7 @@ SETGROUP =
 IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20)"
 IDNOGIT = "released as version $(VERSION)"
 LIBS =  -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt
-CFLAGS = -Wall -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden -pthread
+CFLAGS = -Wall -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden -pthread  -finstrument-functions 
 CPPFLAGS = -DNC_WORKINGDIR_PATH=\"$(NC_WORKINGDIR_PATH)\" -DSETBIT=$(SETBIT)  -DRCSID=\"$(IDGIT)\" -DENABLE_TLS -DPOSIX_SHM
 LIBTOOL = $(libtool) --tag=CC --quiet
 HAVE_PYANG = yes

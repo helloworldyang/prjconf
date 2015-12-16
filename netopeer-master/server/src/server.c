@@ -787,7 +787,8 @@ int main(int argc, char** argv) {
      * between the version it was compiled for and the actual shared
      * library used.
      */
-    LIBXML_TEST_VERSION
+     LIBXML_TEST_VERSION
+
 
         /* initialize library including internal datastores and maybee something more */
         if (nc_init(NC_INIT_ALL | NC_INIT_MULTILAYER) < 0) {
@@ -869,3 +870,16 @@ restart:
 
     return EXIT_SUCCESS;
 }
+
+#define IN_DUMP(func, call)  printf("cyg_func_mark: %p\n{\n", func)
+#define OUT_DUMP(func, call) printf("cyg_func_mark: }//%p\n", func)
+
+void __attribute__((__no_instrument_function__)) __cyg_profile_func_enter(void *this_func, void *call_site)
+{
+        IN_DUMP(this_func, call_site);
+}
+void __attribute__((__no_instrument_function__)) __cyg_profile_func_exit(void *this_func, void *call_site)
+{
+        OUT_DUMP(this_func, call_site);
+}
+

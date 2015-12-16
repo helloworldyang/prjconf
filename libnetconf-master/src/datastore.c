@@ -4614,6 +4614,7 @@ API ncds_id ncds_init(struct ncds_ds* datastore)
 {
 	struct ncds_ds_list * item;
 
+	perror("initiated datastores based on models list in configure xml");
 	/* not initiated datastores have id set to -1 */
 	if (datastore == NULL || datastore->id != -1) {
 		return -1;

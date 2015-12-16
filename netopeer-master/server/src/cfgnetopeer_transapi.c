@@ -226,12 +226,15 @@ int module_enable(struct np_module* module, int add) {
 		nc_verb_error("asprintf() failed (%s:%d).", __FILE__, __LINE__);
 		return(EXIT_FAILURE);
 	}
+    perror("Module: %s", config_path);
+
 	if ((module_config = xmlReadFile(config_path, NULL, XML_PARSE_NOBLANKS|XML_PARSE_NSCLEAN|XML_PARSE_NOWARNING|XML_PARSE_NOERROR)) == NULL) {
 		nc_verb_error("Reading configuration for %s module failed", module->name);
 		free(config_path);
 		return(EXIT_FAILURE);
 	}
 	free(config_path);
+    perror("Reading configuration for %s module OK", module->name);
 
 	if ((xpath_ctxt = xmlXPathNewContext(module_config)) == NULL) {
 		nc_verb_error("Creating XPath context failed (%s:%d - module %s)", __FILE__, __LINE__, module->name);
@@ -258,6 +261,8 @@ int module_enable(struct np_module* module, int add) {
 			repo_path = (char*)xmlNodeGetContent(node);
 		}
 	}
+    perror("%s transAPI module: type: %s, path:%s", module->name, repo_type_str, repo_path);
+
 	if (repo_type_str == NULL) {
 		nc_verb_warning("Missing attribute \'type\' in repo element for %s transAPI module.", module->name);
 		repo_type_str = strdup("unknown");
@@ -290,6 +295,8 @@ int module_enable(struct np_module* module, int add) {
 		goto err_cleanup;
 	}
 
+    perror("yangg: parse the models defined in main configuration xml");
+    perror("yangg: should only 1 main model and multi augment models");
 	/* parse models in the config-defined order, both main and augments */
 	main_model_count = 0;
 	for (node = xpath_obj->nodesetval->nodeTab[0]->children; node != NULL; node = node->next) {

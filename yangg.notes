@@ -7,3 +7,22 @@
 ## use this one if lnctool not found complain msg.
 ./configure --enable-debug --with-lnctool=/home/yangg/netconf/libnetconf-master/dev-tools/lnctool/lnctool
 
+
+# make[1]: *** [csfd] Error 1
+# make[1]: Leaving directory `/usr/local/sinasrv/PyCSF-1.0_Alpha_3@CSF-3.1.2_G2'
+# 原因：
+# 要对使用dlopen的文件编译时加上-ldl
+# 在Makefile.in中LDFLAGS = -L/usr/local/lib -L./confparser -lconfparser -levent -lpthread -ldl栏中添加后面的-ldl选项
+
+## in order to addr2line the func call list, i use -finstrument to generate the cyg function call traces.
+# however, due to libnetconf.so is used, caused the addr dumped is the dynamic re-alloc addr which is 
+# not found in symbol table.
+# so i use the libnetconf.a static lib in netopeer makefile, however, due to most dynamic link options added in libnetconf
+# makefile, many dynamic link errors reported during link the netopeer. so need to copy all the dynamic link libs from
+# libnetconf makefile to netopeer makefile, add the following lines for static link libnetconf.a and other dyn modules:
+---SERVER_LIBS = -lcrypto -lssl -lnetconf -lcrypt -lssh -lnetconf -lnetconf   -lxml2
++++SERVER_LIBS = /home/yangg/netconf/libnetconf-master/.libs/libnetconf.a -lcrypto -lssl -lcrypt -lssh -lxml2 
++++SERVER_LIBS += -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt
+
+ 
+

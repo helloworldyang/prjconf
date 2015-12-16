@@ -66,7 +66,9 @@ INSTALL_DATA_PRIVATE = /usr/bin/install -c -m 600
 RPMDIR = RPMBUILD
 
 SERVER = netopeer-server
-SERVER_LIBS = -lcrypto -lssl -lnetconf -lcrypt -lssh -lnetconf -lnetconf   -lxml2
+#SERVER_LIBS = -lcrypto -lssl -lcrypt -lssh   -lxml2  -lnetconf 
+SERVER_LIBS = /home/yangg/netconf/libnetconf-master/.libs/libnetconf.a -lcrypto -lssl -lcrypt -lssh -lxml2 
+SERVER_LIBS += -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt
 SERVER_SRCS =  src/server.c \
 	src/cfgnetopeer_transapi.c \
 	src/netconf_server_transapi.c \
@@ -86,8 +88,8 @@ CONFIGURATOR_SRCS = configurator/setup.py \
 	configurator/netopeer/*.py \
 	configurator/netopeer/*.py.in
 
-CFLAGS = -Wall -Wextra -g -O0 -DDEBUG -pthread -DNP_SSH -DNP_TLS
-CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2
+CFLAGS = -Wall -Wextra -g -O0 -DDEBUG -pthread -DNP_SSH -DNP_TLS 
+CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2 -finstrument-functions
 DEFINE = -DBINDIR=\"$(BINDIR)\" -DCFG_DIR=\"$(CFGDIR)\" -DMODULES_CFG_DIR=\"$(DESTDIR)/$(modulesdir)/\" -DVERSION=\"$(VERSION)\"
 
 OBJDIR= .obj
