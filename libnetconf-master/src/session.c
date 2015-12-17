@@ -1571,12 +1571,17 @@ static int nc_session_send(struct nc_session* session, struct nc_msg *msg)
 	if (session->version == NETCONFV11) {
 		text = NC_V11_END_MSG;
 	} else { /* NETCONFV10 */
-		text = NC_V10_END_MSG;
+#define NC_V10_END_MSG_v2      "\n]]>]]>\n"
+		text = NC_V10_END_MSG_v2;
 	}
+
+    pverb("yangg: dump the end of msg:%s", text);
+
 	c = 0;
 	do {
 		NC_WRITE(session, &(text[c]), c, ret);
 		if (ret < 0 && (errno == EAGAIN || errno == EWOULDBLOCK)) {
+        pverb("yangg: ret %d dump the end of msg:%s", ret, text);
 			usleep(10);
 			continue;
 		}
@@ -1597,12 +1602,14 @@ static int nc_session_send(struct nc_session* session, struct nc_msg *msg)
 		}
 #endif
 		if (ret < 0) {
+            pverb("yangg: ret %d dump the end of msg:%s", ret, text);
 			DBG_UNLOCK("mut_channel");
 			session->mut_channel_flag = 0;
 			pthread_mutex_unlock(session->mut_channel);
 			return (EXIT_FAILURE);
 		}
 	} while (c < (ssize_t) strlen (text));
+    pverb("yangg: ret %d dump the end of msg:%s", ret, text);
 
 	/* unlock the session's output */
 	DBG_UNLOCK("mut_channel");
