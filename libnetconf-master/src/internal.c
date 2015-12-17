@@ -84,12 +84,12 @@ volatile uint8_t verbose_level = 0;
 /* used in nc_device_init to decide if erase running or not */
 int first_after_close = 0;
 
-API void nc_verbosity(NC_VERB_LEVEL level)
+NOT_TRACK_FUNC_YG API void nc_verbosity(NC_VERB_LEVEL level)  
 {
 	verbose_level = level;
 }
 
-static void prv_vprintf(NC_VERB_LEVEL level, const char *format, va_list args)
+NOT_TRACK_FUNC_YG static void prv_vprintf(NC_VERB_LEVEL level, const char *format, va_list args)  
 {
 #define PRV_MSG_SIZE 4096
 	char prv_msg[PRV_MSG_SIZE];
@@ -103,7 +103,7 @@ static void prv_vprintf(NC_VERB_LEVEL level, const char *format, va_list args)
 #undef PRV_MSG_SIZE
 }
 
-void prv_printf(NC_VERB_LEVEL level, const char *format, ...)
+NOT_TRACK_FUNC_YG void prv_printf(NC_VERB_LEVEL level, const char *format, ...) 
 {
 	va_list ap;
 
@@ -112,7 +112,7 @@ void prv_printf(NC_VERB_LEVEL level, const char *format, ...)
 	va_end(ap);
 }
 
-API void nc_verb_verbose(const char *format, ...)
+NOT_TRACK_FUNC_YG API void nc_verb_verbose(const char *format, ...) 
 {
 	va_list argptr;
 	if (verbose_level >= NC_VERB_VERBOSE) {
@@ -122,7 +122,7 @@ API void nc_verb_verbose(const char *format, ...)
 	}
 }
 
-API void nc_verb_warning(const char *format, ...)
+NOT_TRACK_FUNC_YG API void nc_verb_warning(const char *format, ...) 
 {
 	va_list argptr;
 
@@ -133,7 +133,7 @@ API void nc_verb_warning(const char *format, ...)
 	}
 }
 
-API void nc_verb_error(const char *format, ...)
+NOT_TRACK_FUNC_YG API void nc_verb_error(const char *format, ...) 
 {
 	va_list argptr;
 

@@ -65,6 +65,7 @@
 
 #include "server.h"
 
+
 static const char rcsid[] __attribute__((used)) ="$Id: "__FILE__": "RCSID" $";
 
 extern struct np_options netopeer_options;
@@ -83,7 +84,8 @@ volatile int quit = 0, restart_soft = 0, restart_hard = 0;
 
 volatile int server_start = 0;
 
-void clb_print(NC_VERB_LEVEL level, const char* msg) {
+NOT_TRACK_FUNC_YG void clb_print(NC_VERB_LEVEL level, const char* msg)  
+{
     switch (level) {
         case NC_VERB_ERROR:
             syslog(LOG_ERR, "%s", msg);
@@ -100,7 +102,8 @@ void clb_print(NC_VERB_LEVEL level, const char* msg) {
     }
 }
 
-void print_debug(const char* format, ...) {
+NOT_TRACK_FUNC_YG void print_debug(const char* format, ...)  
+{
 #define MAX_DEBUG_LEN 4096
     char msg[MAX_DEBUG_LEN];
     va_list ap;
@@ -112,14 +115,16 @@ void print_debug(const char* format, ...) {
     clb_print(NC_VERB_DEBUG, msg);
 }
 
-static void print_version(char* progname) {
+NOT_TRACK_FUNC_YG static void print_version(char* progname)  
+{
     fprintf(stdout, "%s version %s\n", progname, VERSION);
     fprintf(stdout, "%s\n", RCSID);
     fprintf(stdout, "compile time: %s, %s\n", __DATE__, __TIME__);
     exit(0);
 }
 
-static void print_usage(char* progname) {
+NOT_TRACK_FUNC_YG static void print_usage(char* progname) 
+{
     fprintf(stdout, "Usage: %s [-dhV] [-v level]\n", progname);
     fprintf(stdout, " -d                  daemonize server\n");
     fprintf(stdout, " -h                  display help\n");
@@ -871,8 +876,8 @@ restart:
     return EXIT_SUCCESS;
 }
 
-#define IN_DUMP(func, call)  printf("cyg_func_mark: %p\n{\n", func)
-#define OUT_DUMP(func, call) printf("cyg_func_mark: }//%p\n", func)
+#define IN_DUMP(func, call)  dprintf(2, "cyg_func_mark%p\n{\n", func)
+#define OUT_DUMP(func, call) dprintf(2, "}//cyg_func_mark%p\n", func)
 
 void __attribute__((__no_instrument_function__)) __cyg_profile_func_enter(void *this_func, void *call_site)
 {

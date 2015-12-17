@@ -182,6 +182,7 @@ static xmlChar* check_default_case(xmlNodePtr config_choice, xmlNodePtr model_ch
 	return(xmlGetProp(def, BAD_CAST "value"));
 }
 
+NOT_TRACK_FUNC_YG 
 static xmlNodePtr* fill_default(xmlDocPtr config, xmlNodePtr node, const char* namespace, NCWD_MODE mode)
 {
 	xmlNodePtr *parents = NULL, *retvals = NULL, *aux_nodeptr;

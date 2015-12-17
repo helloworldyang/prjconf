@@ -2215,6 +2215,7 @@ static int data_model_enlink(struct data_model** model)
 	return (EXIT_SUCCESS);
 }
 
+NOT_TRACK_FUNC_YG 
 static int match_module_node(char* path_module, char* module, char* name, xmlNodePtr *node)
 {
 	char* name_aux;
@@ -2986,7 +2987,7 @@ static xmlNodePtr model_node_path(xmlNodePtr current, const char* current_prefix
  *  no changes  0
  *  some change 1
  */
-static int _update_model(int type, xmlXPathContextPtr model_ctxt, const char* model_prefix, const char* model_name, const char* model_ns, struct transapi_internal* aug_transapi, int path_type)
+NOT_TRACK_FUNC_YG static int _update_model(int type, xmlXPathContextPtr model_ctxt, const char* model_prefix, const char* model_name, const char* model_ns, struct transapi_internal* aug_transapi, int path_type)
 {
 	xmlXPathObjectPtr imports = NULL, nodes = NULL;
 	xmlNodePtr node, node_aux, path_node;
@@ -6819,7 +6820,7 @@ static int ncds_update_features()
  *  0 - do not remove the node
  * -1 - error
  */
-static int feature_check(xmlNodePtr node, struct data_model* model)
+NOT_TRACK_FUNC_YG static int feature_check(xmlNodePtr node, struct data_model* model)
 {
 	xmlNodePtr child, next;
 	char* fname;

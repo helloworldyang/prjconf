@@ -686,4 +686,6 @@ const struct data_model* ncds_get_model_notification(const char* notification, c
 
 char** nc_get_grouplist(const char* username);
 
+#define  NOT_TRACK_FUNC_YG __attribute__((__no_instrument_function__))
+
 #endif /* NC_NETCONF_INTERNAL_H_ */

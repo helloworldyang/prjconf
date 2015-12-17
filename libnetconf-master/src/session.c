@@ -790,7 +790,7 @@ API struct nc_cpblts* nc_cpblts_new(const char* const list[])
 	return (retval);
 }
 
-API int nc_cpblts_add(struct nc_cpblts* capabilities, const char* capability_string)
+NOT_TRACK_FUNC_YG API int nc_cpblts_add(struct nc_cpblts* capabilities, const char* capability_string)
 {
 	int i;
 	char *s, *p = NULL;
@@ -945,7 +945,7 @@ API void nc_cpblts_iter_start(struct nc_cpblts* c)
 	c->iter = 0;
 }
 
-API const char* nc_cpblts_iter_next(struct nc_cpblts* c)
+NOT_TRACK_FUNC_YG API const char* nc_cpblts_iter_next(struct nc_cpblts* c)
 {
 	if (c == NULL || c->list == NULL) {
 		return (NULL);

@@ -89,7 +89,7 @@ unsigned int timeval_diff(struct timeval tv1, struct timeval tv2);
 void* client_notif_thread(void* arg);
 
 void np_client_detach(struct client_struct** root, struct client_struct* del_client);
-
+#define  NOT_TRACK_FUNC_YG  __attribute__((__no_instrument_function__))
 #define perror nc_verb_error
 #define pwarn nc_verb_warning
 #define pverb nc_verb_verbose

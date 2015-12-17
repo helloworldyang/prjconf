@@ -45,7 +45,10 @@
  * objects as hidden and export only objects explicitly marked to be part of
  * the public API.
  */
-#define API __attribute__((visibility("default")))
+
+//#define API __attribute__((visibility("default")))
+
+#define API 
 
 #ifdef DISABLE_LIBSSH
 

@@ -306,6 +306,7 @@ API const char* nc_err_get(const struct nc_err* err, NC_ERR_PARAM param)
 	}
 }
 
+NOT_TRACK_FUNC_YG 
 API int nc_err_set(struct nc_err* err, NC_ERR_PARAM param, const char* value)
 {
 	char** param_item = NULL;

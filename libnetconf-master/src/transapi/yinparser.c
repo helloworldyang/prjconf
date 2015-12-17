@@ -12,7 +12,7 @@
 #include "../transapi.h"
 #include "yinparser.h"
 
-static int get_node_namespace(struct ns_pair ns_mapping[], xmlNodePtr node, char** prefix, char** uri)
+NOT_TRACK_FUNC_YG static int get_node_namespace(struct ns_pair ns_mapping[], xmlNodePtr node, char** prefix, char** uri)
 {
 	int i;
 
@@ -34,6 +34,7 @@ static int get_node_namespace(struct ns_pair ns_mapping[], xmlNodePtr node, char
 	return(EXIT_SUCCESS);
 }
 
+NOT_TRACK_FUNC_YG 
 static struct model_tree* yinmodel_parse_recursive(xmlNodePtr model_node, struct ns_pair ns_mapping[], struct model_tree* parent, int* children_count)
 {
 	struct model_tree *children = NULL, *choice, *new_tree, *augment_children;
@@ -199,7 +200,7 @@ static struct model_tree* yinmodel_parse_recursive(xmlNodePtr model_node, struct
 	return children;
 }
 
-static void yinmodel_free_recursive(struct model_tree* yin)
+NOT_TRACK_FUNC_YG static void yinmodel_free_recursive(struct model_tree* yin)
 {
 	int i;
 
