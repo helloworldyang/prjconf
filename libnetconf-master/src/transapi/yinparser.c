@@ -224,6 +224,7 @@ NOT_TRACK_FUNC_YG static void yinmodel_free_recursive(struct model_tree* yin)
 	free (yin->name);
 }
 
+NOT_TRACK_FUNC_YG
 void yinmodel_free(struct model_tree* yin)
 {
 	if (yin != NULL) {

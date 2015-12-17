@@ -425,6 +425,7 @@ static void sock_listen(const struct np_bind_addr* addrs, struct np_sock* npsock
 }
 
 /* always returns only a single new connection */
+NOT_TRACK_FUNC_YG
 static struct client_struct* sock_accept(const struct np_sock* npsock) {
     int r;
     unsigned int i;
@@ -876,6 +877,7 @@ restart:
     return EXIT_SUCCESS;
 }
 
+#if 0
 #define IN_DUMP(func, call)  dprintf(2, "cyg_func_mark%p\n{\n", func)
 #define OUT_DUMP(func, call) dprintf(2, "}//cyg_func_mark%p\n", func)
 
@@ -888,3 +890,4 @@ void __attribute__((__no_instrument_function__)) __cyg_profile_func_exit(void *t
         OUT_DUMP(this_func, call_site);
 }
 
+#endif

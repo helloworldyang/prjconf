@@ -2348,6 +2348,7 @@ static struct data_model *read_model(const char* model_path)
 	return (model);
 }
 
+NOT_TRACK_FUNC_YG
 static struct data_model* get_model(const char* module, const char* version)
 {
 	struct model_list* listitem;
@@ -2588,6 +2589,7 @@ static int import_groupings(const char* module_name, xmlXPathContextPtr model_ct
 	return (EXIT_SUCCESS);
 }
 
+NOT_TRACK_FUNC_YG
 static int ncds_update_uses(const char *module_name, const char *prefix,
 		                    xmlXPathContextPtr *model_ctxt, const char* query)
 {
@@ -2753,6 +2755,7 @@ static int ncds_update_uses_augments(struct data_model* model)
 	return(ncds_update_uses(model->name, model->prefix, &(model->ctxt), query));
 }
 
+NOT_TRACK_FUNC_YG
 static int ncds_update_uses_ds(struct ncds_ds* datastore)
 {
 	xmlXPathContextPtr model_ctxt;
@@ -3132,6 +3135,7 @@ error_cleanup:
 	return (-1);
 }
 
+NOT_TRACK_FUNC_YG
 static int ncds_update_refine(struct ncds_ds *ds)
 {
 	int ret;
@@ -3157,6 +3161,7 @@ static int ncds_update_refine(struct ncds_ds *ds)
 	return (ret);
 }
 
+NOT_TRACK_FUNC_YG
 static int ncds_update_augment_absolute(struct data_model *augment)
 {
 	if (augment == NULL) {
@@ -3167,6 +3172,7 @@ static int ncds_update_augment_absolute(struct data_model *augment)
 	return(_update_model(1, augment->ctxt, augment->prefix, augment->name, augment->ns, augment->transapi, 0));
 }
 
+NOT_TRACK_FUNC_YG
 static int ncds_update_augment_relative(struct ncds_ds *ds)
 {
 	int ret;
@@ -3192,6 +3198,7 @@ static int ncds_update_augment_relative(struct ncds_ds *ds)
 	return (ret);
 }
 
+NOT_TRACK_FUNC_YG
 static int ncds_update_augment_cleanup(struct ncds_ds *ds)
 {
 	int i;
@@ -3244,6 +3251,7 @@ static int ncds_update_augment_cleanup(struct ncds_ds *ds)
 	return (EXIT_SUCCESS);
 }
 
+NOT_TRACK_FUNC_YG
 API int ncds_add_models_path(const char* path)
 {
 	static int list_size = 0;
@@ -3591,6 +3599,7 @@ API int ncds_features_disableall(const char* module)
  *
  * return Resulting string or NULL on error.
  */
+NOT_TRACK_FUNC_YG
 static char* nc_str_replace(const char *str, const char *substr, const char *replacement)
 {
 	int i, j, len;
@@ -3770,6 +3779,7 @@ static void transapi_unload(struct transapi_internal* tapi)
 	}
 }
 
+NOT_TRACK_FUNC_YG
 static void transapis_cleanup(struct transapi_list **list, int force)
 {
 	struct transapi_list *iter, *prev = NULL;

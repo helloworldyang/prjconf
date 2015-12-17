@@ -990,6 +990,7 @@ void np_tls_thread_cleanup(void) {
 	ERR_remove_thread_state(&crypto_tid);
 }
 
+NOT_TRACK_FUNC_YG
 static void tls_thread_locking_func(int mode, int n, const char* UNUSED(file), int UNUSED(line)) {
 	if (mode & CRYPTO_LOCK) {
 		pthread_mutex_lock(netopeer_state.tls_state->tls_mutex_buf+n);
@@ -998,6 +999,7 @@ static void tls_thread_locking_func(int mode, int n, const char* UNUSED(file), i
 	}
 }
 
+NOT_TRACK_FUNC_YG
 static unsigned long tls_thread_id_func() {
 	return (unsigned long)pthread_self();
 }
@@ -1033,6 +1035,7 @@ void np_tls_init(void) {
 	tls_thread_setup();
 }
 
+NOT_TRACK_FUNC_YG
 SSL_CTX* np_tls_server_id_check(SSL_CTX* tlsctx) {
 	SSL_CTX* ret;
 	X509* cert;

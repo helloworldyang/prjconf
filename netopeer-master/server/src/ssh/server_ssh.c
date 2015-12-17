@@ -978,6 +978,7 @@ void np_ssh_init(void) {
 	ssh_set_log_callback(sshcb_log);
 }
 
+NOT_TRACK_FUNC_YG
 ssh_bind np_ssh_server_id_check(ssh_bind sshbind) {
 	ssh_bind ret;
 
