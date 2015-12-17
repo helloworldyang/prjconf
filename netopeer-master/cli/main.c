@@ -244,3 +244,19 @@ int main(int UNUSED(argc), char** UNUSED(argv)) {
 	/* bye, bye */
 	return (EXIT_SUCCESS);
 }
+
+#if 0
+
+#define IN_DUMP(func, call)  dprintf(2, "cyg_func_mark%p\n{\n", func)
+#define OUT_DUMP(func, call) dprintf(2, "}//cyg_func_mark%p\n", func)
+
+void __attribute__((__no_instrument_function__)) __cyg_profile_func_enter(void *this_func, void *call_site)
+{
+        IN_DUMP(this_func, call_site);
+}
+void __attribute__((__no_instrument_function__)) __cyg_profile_func_exit(void *this_func, void *call_site)
+{
+        OUT_DUMP(this_func, call_site);
+}
+
+#endif

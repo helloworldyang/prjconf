@@ -54,8 +54,7 @@ CC = gcc
 LIBS = /home/yangg/netconf/libnetconf-master/.libs/libnetconf.a -lxml2 -lreadline -lcrypto
 LIBS += -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt 
 
-CFLAGS = -Wall -I/usr/include/libxml2  -O3 -DNDEBUG -pthread
-
+CFLAGS = -Wall -I/usr/include/libxml2  -O3 -DNDEBUG -pthread -finstrument-functions
 
 CPPFLAGS =  -DRCSID=\"$(IDGIT)\" -DVERSION=\"$(VERSION)\"
 INSTALL = /usr/bin/install -c

@@ -3221,6 +3221,7 @@ main
                         nc_session_read_until
                         {
                         }//nc_session_read_until
+                        //yangg get
                         //Received message (session 1): <?xml version="1.0" encoding="UTF-8"?>
                         //<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="1">
                         //<get/>
