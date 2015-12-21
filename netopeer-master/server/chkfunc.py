@@ -4,7 +4,7 @@ import sys
 from operator import itemgetter
 #p = subprocess.Popen('ls',stdout=subprocess.PIPE)
 #print p.stdout.readlines()
-sfwdir='/home/yangg/netconf/netopeer-master/server/netopeer-server'
+sfwdir='/root/netconf/netopeer-master/server/netopeer-server'
 logdata=[]
 funcmap={}
 funcfreq={}

@@ -42,7 +42,7 @@ IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20
 IDNOGIT = "released as version $(VERSION)"
 
 srcdir = .
-abs_srcdir = /home/yangg/netconf/netopeer-master/cli
+abs_srcdir = /root/netconf/netopeer-master/cli
 prefix = /usr/local
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
@@ -51,10 +51,19 @@ mandir = ${datarootdir}/man
 readlink = readlink
 
 CC = gcc
-LIBS = /home/yangg/netconf/libnetconf-master/.libs/libnetconf.a -lxml2 -lreadline -lcrypto
-LIBS += -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt 
 
-CFLAGS = -Wall -I/usr/include/libxml2  -O3 -DNDEBUG -pthread -finstrument-functions
+LIBS = /root/netconf/libnetconf-master/.libs/libnetconf.a
+LIBS += -L/usr/lib64 -L/root/netconf/libs
+LIBS += -lcurl -lssh_threads -lssh -lxslt -lxml2 -lm -lz -ldl -lssl -lrt -lcrypto  -lreadline -lcrypt
+
+
+CFLAGS = -Wall -I/usr/include/libxml2  -O3 -DNDEBUG -pthread -finstrument-functions \
+  -I/root/netconf/libnetconf-master/src \
+  -I/root/netconf/3rdparty/libssh-0.7.2/include \
+  -I/root/netconf/3rdparty/libxml2-2.9.3/include \
+  -I/root/netconf/3rdparty/libxslt-1.1.28/libxslt/include \
+  -I/root/netconf/3rdparty/openssl-1.0.2e/include
+
 
 CPPFLAGS =  -DRCSID=\"$(IDGIT)\" -DVERSION=\"$(VERSION)\"
 INSTALL = /usr/bin/install -c

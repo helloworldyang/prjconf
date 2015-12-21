@@ -53,7 +53,7 @@ mandir = ${datarootdir}/man
 sysconfdir = ${prefix}/etc
 modulesdir = ${prefix}/etc/netopeer/modules.conf.d/
 
-TOPDIR = /home/yangg/netconf/netopeer-master/server
+TOPDIR = /root/netconf/netopeer-master/server
 #if you edit this path, edit also configurator/config.py.in path
 CFGDIR = $(DESTDIR)/$(sysconfdir)/netopeer
 CC = gcc
@@ -67,8 +67,10 @@ RPMDIR = RPMBUILD
 
 SERVER = netopeer-server
 #SERVER_LIBS = -lcrypto -lssl -lcrypt -lssh   -lxml2  -lnetconf 
-SERVER_LIBS = /home/yangg/netconf/libnetconf-master/.libs/libnetconf.a -lcrypto -lssl -lcrypt -lssh -lxml2 
-SERVER_LIBS += -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt
+SERVER_LIBS = /root/netconf/libnetconf-master/.libs/libnetconf.a
+SERVER_LIBS += -L/usr/lib64 -L/root/netconf/libs 
+SERVER_LIBS += -lcurl -lssh_threads -lssh -lxslt -lxml2 -lm -lz -ldl -lssl -lrt -lcrypto -lcrypt
+
 SERVER_SRCS =  src/server.c \
 	src/cfgnetopeer_transapi.c \
 	src/netconf_server_transapi.c \
@@ -89,7 +91,12 @@ CONFIGURATOR_SRCS = configurator/setup.py \
 	configurator/netopeer/*.py.in
 
 CFLAGS = -Wall -Wextra -g -O0 -DDEBUG -pthread -DNP_SSH -DNP_TLS 
-CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2 -finstrument-functions -I/home/yangg/netconf/libnetconf-master/src
+CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2 -finstrument-functions -I/root/netconf/libnetconf-master/src \
+  -I/root/netconf/3rdparty/libssh-0.7.2/include \
+  -I/root/netconf/3rdparty/libxml2-2.9.3/include \
+  -I/root/netconf/3rdparty/libxslt-1.1.28/libxslt/include \
+  -I/root/netconf/3rdparty/openssl-1.0.2e/include
+
 DEFINE = -DBINDIR=\"$(BINDIR)\" -DCFG_DIR=\"$(CFGDIR)\" -DMODULES_CFG_DIR=\"$(DESTDIR)/$(modulesdir)/\" -DVERSION=\"$(VERSION)\"
 
 OBJDIR= .obj

@@ -39,7 +39,7 @@ LNCTOOL = dev-tools/lnctool/lnctool
 
 # Various configurable paths (remember to edit Makefile.in, not Makefile)
 srcdir = .
-abs_srcdir = /home/yangg/netconf/libnetconf-master
+abs_srcdir = /root/netconf/libnetconf-master
 prefix = /usr
 exec_prefix = ${prefix}
 datarootdir = ${prefix}/share
@@ -74,12 +74,16 @@ SETUSER =
 SETGROUP = 
 IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20)"
 IDNOGIT = "released as version $(VERSION)"
-LIBS =  -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt
-CFLAGS = -Wall -I/usr/include/libxml2 -I/usr/include/libxml2  -g -O0 -DDEBUG -fvisibility=hidden -pthread  -finstrument-functions 
 CPPFLAGS = -DNC_WORKINGDIR_PATH=\"$(NC_WORKINGDIR_PATH)\" -DSETBIT=$(SETBIT)  -DRCSID=\"$(IDGIT)\" -DENABLE_TLS -DPOSIX_SHM
 LIBTOOL = $(libtool) --tag=CC --quiet
 HAVE_PYANG = yes
 HAVE_XSLTPROC = yes
+
+CFLAGS = -Wall -g -O0 -DDEBUG -fvisibility=hidden -pthread  -finstrument-functions 
+
+LIBS =  -L/usr/lib64 -L/root/netconf/libs -lcurl -lssl -lssh_threads -lssh -lxslt -lxml2 -lz -lm -ldl  -lrt
+# LIBS =  -lcurl -lssh_threads -lssh -L/usr/lib64 -lz -lm -ldl  -lrt
+
 
 PYTHON = 
 ifdef PYTHON
@@ -95,7 +99,11 @@ PYSRCS = python/netconf.c \
 	python/session.c
 endif
 
-INCLUDES= -I$(abs_srcdir)/src
+INCLUDES= -I$(abs_srcdir)/src \
+ -I/root/netconf/3rdparty/libssh-0.7.2/include \
+ -I/root/netconf/3rdparty/libxml2-2.9.3/include \
+ -I/root/netconf/3rdparty/libxslt-1.1.28/libxslt/include \
+ -I/root/netconf/3rdparty/openssl-1.0.2e/include
 
 ifeq "$(shell pwd)" "$(shell $(readlink) -f $(srcdir))"
 OBJDIR = .obj
