@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/scp_download.dir/scp_download.c.o"
   "CMakeFiles/scp_download.dir/authentication.c.o"
   "CMakeFiles/scp_download.dir/knownhosts.c.o"
@@ -8,6 +8,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/scp_download.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/scp_download.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

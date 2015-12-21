@@ -38,9 +38,9 @@ poll.h
 libssh/libssh.h
 ../include/libssh/libssh/libssh.h
 
-/root/netconf/3rdparty/libssh-0.7.2/examples/ssh_server_fork.c
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/ssh_server_fork.c
 config.h
-/root/netconf/3rdparty/libssh-0.7.2/examples/config.h
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/config.h
 libssh/callbacks.h
 -
 libssh/poll.h

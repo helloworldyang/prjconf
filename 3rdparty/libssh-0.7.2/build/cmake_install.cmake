@@ -1,98 +1,98 @@
-# Install script for directory: /root/netconf/3rdparty/libssh-0.7.2
+# Install script for directory: /home/yangg/netconf_allpack/3rdparty/libssh-0.7.2
 
 # Set the install prefix
-IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/usr/local")
-ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
 # Set the install configuration name.
-IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
-  IF(BUILD_TYPE)
-    STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
-  ELSE(BUILD_TYPE)
-    SET(CMAKE_INSTALL_CONFIG_NAME "")
-  ENDIF(BUILD_TYPE)
-  MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
-ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
 
 # Set the component getting installed.
-IF(NOT CMAKE_INSTALL_COMPONENT)
-  IF(COMPONENT)
-    MESSAGE(STATUS "Install component: \"${COMPONENT}\"")
-    SET(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
-  ELSE(COMPONENT)
-    SET(CMAKE_INSTALL_COMPONENT)
-  ENDIF(COMPONENT)
-ENDIF(NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
 
 # Install shared libraries without execute permission?
-IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  SET(CMAKE_INSTALL_SO_NO_EXE "0")
-ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
+endif()
 
-IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconfig")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconfig")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/lib/pkgconfig/libssh.pc;/usr/local/lib/pkgconfig/libssh_threads.pc")
-  IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-  IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES
-    "/root/netconf/3rdparty/libssh-0.7.2/build/libssh.pc"
-    "/root/netconf/3rdparty/libssh-0.7.2/build/libssh_threads.pc"
+  endif()
+file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES
+    "/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/libssh.pc"
+    "/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/libssh_threads.pc"
     )
-ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconfig")
+endif()
 
-IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconfig")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconfig")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/lib/pkgconfig/libssh.pc;/usr/local/lib/pkgconfig/libssh_threads.pc")
-  IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-  IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES
-    "/root/netconf/3rdparty/libssh-0.7.2/build/libssh.pc"
-    "/root/netconf/3rdparty/libssh-0.7.2/build/libssh_threads.pc"
+  endif()
+file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES
+    "/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/libssh.pc"
+    "/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/libssh_threads.pc"
     )
-ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconfig")
+endif()
 
-IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/lib/cmake/libssh/libssh-config.cmake;/usr/local/lib/cmake/libssh/libssh-config-version.cmake")
-  IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-  IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib/cmake/libssh" TYPE FILE FILES
-    "/root/netconf/3rdparty/libssh-0.7.2/build/libssh-config.cmake"
-    "/root/netconf/3rdparty/libssh-0.7.2/build/libssh-config-version.cmake"
+  endif()
+file(INSTALL DESTINATION "/usr/local/lib/cmake/libssh" TYPE FILE FILES
+    "/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/libssh-config.cmake"
+    "/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/libssh-config-version.cmake"
     )
-ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
+endif()
 
-IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/root/netconf/3rdparty/libssh-0.7.2/build/doc/cmake_install.cmake")
-  INCLUDE("/root/netconf/3rdparty/libssh-0.7.2/build/include/cmake_install.cmake")
-  INCLUDE("/root/netconf/3rdparty/libssh-0.7.2/build/src/cmake_install.cmake")
-  INCLUDE("/root/netconf/3rdparty/libssh-0.7.2/build/examples/cmake_install.cmake")
+  include("/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/doc/cmake_install.cmake")
+  include("/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/include/cmake_install.cmake")
+  include("/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/src/cmake_install.cmake")
+  include("/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/examples/cmake_install.cmake")
 
-ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
+endif()
 
-IF(CMAKE_INSTALL_COMPONENT)
-  SET(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-ELSE(CMAKE_INSTALL_COMPONENT)
-  SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-ENDIF(CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT)
+  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+else()
+  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
+endif()
 
-FILE(WRITE "/root/netconf/3rdparty/libssh-0.7.2/build/${CMAKE_INSTALL_MANIFEST}" "")
-FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/root/netconf/3rdparty/libssh-0.7.2/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
-ENDFOREACH(file)
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+file(WRITE "/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/build/${CMAKE_INSTALL_MANIFEST}"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -26,9 +26,9 @@ libssh/legacy.h
 libssh/libssh.h
 ../include/libssh/libssh/libssh.h
 
-/root/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-kbdint.c
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/samplesshd-kbdint.c
 config.h
-/root/netconf/3rdparty/libssh-0.7.2/examples/config.h
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/config.h
 libssh/libssh.h
 -
 libssh/server.h

@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/senddata.dir/senddata.c.o"
   "CMakeFiles/senddata.dir/authentication.c.o"
   "CMakeFiles/senddata.dir/knownhosts.c.o"
@@ -8,6 +8,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/senddata.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/senddata.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

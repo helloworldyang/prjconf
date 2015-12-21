@@ -28,9 +28,9 @@ netdb.h
 libssh/legacy.h
 ../include/libssh/libssh/legacy.h
 
-/root/netconf/3rdparty/libssh-0.7.2/src/threads/pthread.c
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/src/threads/pthread.c
 config.h
-/root/netconf/3rdparty/libssh-0.7.2/src/threads/config.h
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/src/threads/config.h
 libssh/callbacks.h
 -
 errno.h

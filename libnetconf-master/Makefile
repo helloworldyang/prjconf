@@ -37,9 +37,10 @@
 NAME = libnetconf
 LNCTOOL = dev-tools/lnctool/lnctool
 
+ROOTDIR = /home/yangg/netconf
 # Various configurable paths (remember to edit Makefile.in, not Makefile)
 srcdir = .
-abs_srcdir = /root/netconf/libnetconf-master
+abs_srcdir = $(ROOTDIR)/libnetconf-master
 prefix = /usr
 exec_prefix = ${prefix}
 datarootdir = ${prefix}/share
@@ -81,7 +82,7 @@ HAVE_XSLTPROC = yes
 
 CFLAGS = -Wall -g -O0 -DDEBUG -fvisibility=hidden -pthread  -finstrument-functions 
 
-LIBS =  -L/usr/lib64 -L/root/netconf/libs -lcurl -lssl -lssh_threads -lssh -lxslt -lxml2 -lz -lm -ldl  -lrt
+LIBS =  -L/usr/lib64 -L$(ROOTDIR)/libs -lcurl -lssl -lssh_threads -lssh -lxslt -lxml2 -lz -lm -ldl  -lrt
 # LIBS =  -lcurl -lssh_threads -lssh -L/usr/lib64 -lz -lm -ldl  -lrt
 
 
@@ -100,10 +101,10 @@ PYSRCS = python/netconf.c \
 endif
 
 INCLUDES= -I$(abs_srcdir)/src \
- -I/root/netconf/3rdparty/libssh-0.7.2/include \
- -I/root/netconf/3rdparty/libxml2-2.9.3/include \
- -I/root/netconf/3rdparty/libxslt-1.1.28/libxslt/include \
- -I/root/netconf/3rdparty/openssl-1.0.2e/include
+ -I$(ROOTDIR)/3rdparty/libssh-0.7.2/include \
+ -I$(ROOTDIR)/3rdparty/libxml2-2.9.3/include \
+ -I$(ROOTDIR)/3rdparty/libxslt-1.1.28/libxslt/include \
+ -I$(ROOTDIR)/3rdparty/openssl-1.0.2e/include
 
 ifeq "$(shell pwd)" "$(shell $(readlink) -f $(srcdir))"
 OBJDIR = .obj

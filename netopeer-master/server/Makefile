@@ -40,6 +40,7 @@ RELEASE = 1
 IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20)"
 IDNOGIT = "released as version $(VERSION)"
 
+ROOTDIR = /home/yangg/netconf/
 # Various configurable paths (remember to edit Makefile.in, not Makefile)
 prefix = /usr/local
 exec_prefix = ${prefix}
@@ -53,7 +54,7 @@ mandir = ${datarootdir}/man
 sysconfdir = ${prefix}/etc
 modulesdir = ${prefix}/etc/netopeer/modules.conf.d/
 
-TOPDIR = /root/netconf/netopeer-master/server
+TOPDIR = $(ROOTDIR)/netopeer-master/server
 #if you edit this path, edit also configurator/config.py.in path
 CFGDIR = $(DESTDIR)/$(sysconfdir)/netopeer
 CC = gcc
@@ -67,8 +68,8 @@ RPMDIR = RPMBUILD
 
 SERVER = netopeer-server
 #SERVER_LIBS = -lcrypto -lssl -lcrypt -lssh   -lxml2  -lnetconf 
-SERVER_LIBS = /root/netconf/libnetconf-master/.libs/libnetconf.a
-SERVER_LIBS += -L/usr/lib64 -L/root/netconf/libs 
+SERVER_LIBS = $(ROOTDIR)/libnetconf-master/.libs/libnetconf.a
+SERVER_LIBS += -L/usr/lib64 -L$(ROOTDIR)/libs 
 SERVER_LIBS += -lcurl -lssh_threads -lssh -lxslt -lxml2 -lm -lz -ldl -lssl -lrt -lcrypto -lcrypt
 
 SERVER_SRCS =  src/server.c \
@@ -91,11 +92,12 @@ CONFIGURATOR_SRCS = configurator/setup.py \
 	configurator/netopeer/*.py.in
 
 CFLAGS = -Wall -Wextra -g -O0 -DDEBUG -pthread -DNP_SSH -DNP_TLS 
-CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2 -finstrument-functions -I/root/netconf/libnetconf-master/src \
-  -I/root/netconf/3rdparty/libssh-0.7.2/include \
-  -I/root/netconf/3rdparty/libxml2-2.9.3/include \
-  -I/root/netconf/3rdparty/libxslt-1.1.28/libxslt/include \
-  -I/root/netconf/3rdparty/openssl-1.0.2e/include
+CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2 -finstrument-functions \
+  -I$(ROOTDIR)/libnetconf-master/src \
+  -I$(ROOTDIR)/3rdparty/libssh-0.7.2/include \
+  -I$(ROOTDIR)/3rdparty/libxml2-2.9.3/include \
+  -I$(ROOTDIR)/3rdparty/libxslt-1.1.28/libxslt/include \
+  -I$(ROOTDIR)/3rdparty/openssl-1.0.2e/include
 
 DEFINE = -DBINDIR=\"$(BINDIR)\" -DCFG_DIR=\"$(CFGDIR)\" -DMODULES_CFG_DIR=\"$(DESTDIR)/$(modulesdir)/\" -DVERSION=\"$(VERSION)\"
 

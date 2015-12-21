@@ -22,7 +22,7 @@ netdb.h
 libssh/legacy.h
 ../include/libssh/libssh/legacy.h
 
-/root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/authentication.c
 stdio.h
 -
 stdlib.h
@@ -32,29 +32,29 @@ string.h
 libssh/libssh.h
 -
 examples_common.h
-/root/netconf/3rdparty/libssh-0.7.2/examples/examples_common.h
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/examples_common.h
 
-/root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/connect_ssh.c
 libssh/libssh.h
 -
 examples_common.h
-/root/netconf/3rdparty/libssh-0.7.2/examples/examples_common.h
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/examples_common.h
 stdio.h
 -
 
-/root/netconf/3rdparty/libssh-0.7.2/examples/examples_common.h
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/examples_common.h
 libssh/libssh.h
 -
 
-/root/netconf/3rdparty/libssh-0.7.2/examples/exec.c
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/exec.c
 stdio.h
 -
 libssh/libssh.h
 -
 examples_common.h
-/root/netconf/3rdparty/libssh-0.7.2/examples/examples_common.h
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/examples_common.h
 
-/root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/knownhosts.c
 errno.h
 -
 stdio.h
@@ -66,5 +66,5 @@ string.h
 libssh/libssh.h
 -
 examples_common.h
-/root/netconf/3rdparty/libssh-0.7.2/examples/examples_common.h
+/home/yangg/netconf_allpack/3rdparty/libssh-0.7.2/examples/examples_common.h
 

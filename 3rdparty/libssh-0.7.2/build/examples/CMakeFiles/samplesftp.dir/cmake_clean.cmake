@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/samplesftp.dir/samplesftp.c.o"
   "CMakeFiles/samplesftp.dir/authentication.c.o"
   "CMakeFiles/samplesftp.dir/knownhosts.c.o"
@@ -8,6 +8,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/samplesftp.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/samplesftp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
