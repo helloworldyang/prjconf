@@ -91,6 +91,8 @@ int np_ssh_kill_session(const char* sid, struct client_struct_ssh* cur_client);
 
 int np_ssh_create_client(struct client_struct_ssh* new_client, ssh_bind sshbind);
 
+int nc_send_recv_trans(char* rpc_text, int inlen, char** buff_recv);
+
 void np_ssh_cleanup(void);
 
 void client_free_ssh(struct client_struct_ssh* client);

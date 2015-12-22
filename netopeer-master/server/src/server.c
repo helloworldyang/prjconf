@@ -708,11 +708,8 @@ void listen_loop(int do_init) {
     }
 }
 
-#define PORT_TRANS 7800
-#define IPADDR_TRANS 127.0.0.1
-
 int sock;
-
+                                         
 int main(int argc, char** argv) {
     struct sigaction action;
     sigset_t block_mask;
@@ -841,7 +838,6 @@ restart:
 
     server_start = 0;
     nc_verb_verbose("Netopeer server successfully initialized.");
-
     /*create socket for translator*/
     if ((sock = socket(AF_INET, SOCK_DGRAM, 0)) == -1) {
         perror("socket");
@@ -850,7 +846,6 @@ restart:
     else {
     printf("create socket.\n\r");
     }
-
     listen_loop(listen_init);
 
     close(sock);
@@ -889,6 +884,7 @@ restart:
      *have been allocated by the parser.
      */
     xmlCleanupParser();
+    close(sock);
 
     return EXIT_SUCCESS;
 }

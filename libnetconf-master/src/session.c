@@ -1572,7 +1572,7 @@ static int nc_session_send(struct nc_session* session, struct nc_msg *msg)
 		text = NC_V11_END_MSG;
 	} else { /* NETCONFV10 */
 #define NC_V10_END_MSG_v2      "\n]]>]]>\n"
-		text = NC_V10_END_MSG_v2;
+        text = NC_V10_END_MSG_v2;
 	}
 
     pverb("yangg: dump the end of msg:%s", text);
