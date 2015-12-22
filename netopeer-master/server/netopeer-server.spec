@@ -7,7 +7,7 @@ Source: https://www.liberouter.org/repo/SOURCES/%{name}-%{version}-%{release}.ta
 Group: Liberouter
 License: BSD
 Vendor: CESNET, z.s.p.o.
-Packager:  <>
+Packager: yangg@mystation <yangg@mystation>
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
 BuildRequires: gcc make doxygen pkgconfig

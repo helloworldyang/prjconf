@@ -13,6 +13,11 @@ https://github.com/helloworldyang/prjconf.git
 #please check the config.log and find why the c filed build failed. if it reported like libxxx not found
 #use the path explicitly 
 ./configure --enable-debug --enable-tls --libdir=/home/yangg/netconf/libs --with-libnetconf=/home/yangg/netconf/libs
+##case2:
+#if you want to use the libnetconf.a instead of the libnetconf.so, use the LDPATH
+#to set the netconf.a explct
+export LDFLAGS="-L/lib64 -L/usr/lib64 -L/home/yangg/netconf/libs /home/yangg/netconf/libs/libnetconf.a"
+./configure --enable-debug --enable-tls 
 
 
 # make[1]: *** [csfd] Error 1
@@ -31,4 +36,13 @@ https://github.com/helloworldyang/prjconf.git
 +++SERVER_LIBS = /home/yangg/netconf/libnetconf-master/.libs/libnetconf.a -lcrypto -lssl -lcrypt -lssh -lxml2 
 +++SERVER_LIBS += -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt
 
+## the netopeer internal datastore path is set at NC_WORKINGDIR_PATH for C code
+# for python, it's set at /home/yangg/netconf/libnetconf-master/libnetconf.pc, which will be installed at pkg-config directory
+# python will get that value via 
+# "# pkg-config libnetconf --variable=ncworkingdir"
+# /var/lib/libnetconf/
+
+>cat global_defs.mk 
+ROOTDIR = /home/yangg/netconf
+NC_WORKINGDIR_PATH = $(DESTDIR)//var/lib/libnetconf/
 

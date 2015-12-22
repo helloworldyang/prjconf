@@ -4194,13 +4194,13 @@ fi
 
 
 if test "$SSH" = "yes"; then
-	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for nc_session_accept_libssh_channel in -lnetconf" >&5
-$as_echo_n "checking for nc_session_accept_libssh_channel in -lnetconf... " >&6; }
+	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for nc_session_accept_libssh_channel in netconf" >&5
+$as_echo_n "checking for nc_session_accept_libssh_channel in netconf... " >&6; }
 if ${ac_cv_lib_netconf_nc_session_accept_libssh_channel+:} false; then :
   $as_echo_n "(cached) " >&6
 else
   ac_check_lib_save_LIBS=$LIBS
-LIBS="-lnetconf  $LIBS"
+# yangg comment it:    LIBS="-lnetconf  $LIBS"
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -4235,7 +4235,7 @@ if test "x$ac_cv_lib_netconf_nc_session_accept_libssh_channel" = xyes; then :
 #define HAVE_LIBNETCONF 1
 _ACEOF
 
-  LIBS="-lnetconf $LIBS"
+  # yangg comment it:    LIBS="-lnetconf $LIBS"
 
 else
 
@@ -4371,13 +4371,13 @@ fi
 fi
 
 if test "$TLS" = "yes"; then
-	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for nc_session_accept_tls in -lnetconf" >&5
-$as_echo_n "checking for nc_session_accept_tls in -lnetconf... " >&6; }
+	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for nc_session_accept_tls in netconf" >&5
+$as_echo_n "checking for nc_session_accept_tls in netconf... " >&6; }
 if ${ac_cv_lib_netconf_nc_session_accept_tls+:} false; then :
   $as_echo_n "(cached) " >&6
 else
   ac_check_lib_save_LIBS=$LIBS
-LIBS="-lnetconf  $LIBS"
+# yangg comment it:    LIBS="-lnetconf  $LIBS"
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -4412,7 +4412,7 @@ if test "x$ac_cv_lib_netconf_nc_session_accept_tls" = xyes; then :
 #define HAVE_LIBNETCONF 1
 _ACEOF
 
-  LIBS="-lnetconf $LIBS"
+  # yangg comment it:    LIBS="-lnetconf $LIBS"
 
 else
 
