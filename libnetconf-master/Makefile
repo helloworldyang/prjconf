@@ -37,7 +37,9 @@
 NAME = libnetconf
 LNCTOOL = dev-tools/lnctool/lnctool
 
-ROOTDIR = /home/yangg/netconf
+include ../global_defs.mk
+
+#ROOTDIR = /home/yangg/netconf
 # Various configurable paths (remember to edit Makefile.in, not Makefile)
 srcdir = .
 abs_srcdir = $(ROOTDIR)/libnetconf-master

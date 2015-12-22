@@ -34,6 +34,9 @@
 # if advised of the possibility of such damage.
 #
 
+include ../../global_defs.mk
+#ROOTDIR = /home/yangg/netconf/
+
 NAME = netopeer-cli
 VERSION = 0.8.0
 RELEASE = 1
@@ -41,7 +44,6 @@ RELEASE = 1
 IDGIT = "built from git $(shell git show --pretty=oneline | head -1 | cut -c -20)"
 IDNOGIT = "released as version $(VERSION)"
 
-ROOTDIR = /home/yangg/netconf/
 srcdir = .
 abs_srcdir = $(ROOTDIR)/netopeer-master/cli
 prefix = /usr/local
