@@ -38,8 +38,8 @@ NAME = libnetconf
 LNCTOOL = dev-tools/lnctool/lnctool
 
 include ../global_defs.mk
-
 #ROOTDIR = /home/yangg/netconf
+
 # Various configurable paths (remember to edit Makefile.in, not Makefile)
 srcdir = .
 abs_srcdir = $(ROOTDIR)/libnetconf-master
@@ -71,7 +71,6 @@ INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_DATA = ${INSTALL} -m 644
 RPMDIR = RPMBUILD
-NC_WORKINGDIR_PATH = $(DESTDIR)//var/lib/libnetconf/
 SETBIT = 0
 SETUSER = 
 SETGROUP = 
