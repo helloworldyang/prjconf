@@ -9,8 +9,8 @@
 #define LIBDIR "/usr/local/lib"
 #define PLUGINDIR "/usr/local/lib/libssh-4"
 #define SYSCONFDIR "/usr/local/etc"
-#define BINARYDIR "/root/netconf/3rdparty/libssh-0.7.2/build"
-#define SOURCEDIR "/root/netconf/3rdparty/libssh-0.7.2"
+#define BINARYDIR "/home/yangg/netconf/3rdparty/libssh-0.7.2/build"
+#define SOURCEDIR "/home/yangg/netconf/3rdparty/libssh-0.7.2"
 
 /************************** HEADER FILES *************************/
 
@@ -150,7 +150,7 @@
 #define HAVE_GCC_NARG_MACRO 1
 
 #define HAVE_COMPILER__FUNC__ 1
-#define HAVE_COMPILER__FUNCTION__ 1
+/* #undef HAVE_COMPILER__FUNCTION__ */
 
 /* Define to 1 if you want to enable GSSAPI */
 #define WITH_GSSAPI 1

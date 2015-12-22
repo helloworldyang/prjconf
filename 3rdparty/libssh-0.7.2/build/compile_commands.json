@@ -1,442 +1,442 @@
 [
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/agent.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/agent.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/agent.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/agent.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/agent.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/agent.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/auth.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/auth.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/auth.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/auth.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/auth.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/auth.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/base64.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/base64.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/base64.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/base64.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/base64.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/base64.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/bignum.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/bignum.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/bignum.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/bignum.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/bignum.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/bignum.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/buffer.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/buffer.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/buffer.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/buffer.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/buffer.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/buffer.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/callbacks.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/callbacks.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/callbacks.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/callbacks.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/callbacks.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/callbacks.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/channels.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/channels.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/channels.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/channels.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/channels.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/channels.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/client.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/client.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/client.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/client.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/client.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/client.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/config.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/config.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/config.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/config.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/config.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/config.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/connect.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/connect.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/connect.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/connect.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/connect.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/connect.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/curve25519.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/curve25519.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/curve25519.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/curve25519.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/curve25519.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/curve25519.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/dh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/dh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/dh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/dh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/dh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/dh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/ecdh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/ecdh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/ecdh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/ecdh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/ecdh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/ecdh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/error.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/error.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/error.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/error.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/error.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/error.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/getpass.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/getpass.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/getpass.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/getpass.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/getpass.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/getpass.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/init.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/init.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/init.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/init.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/init.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/init.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/kex.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/kex.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/kex.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/kex.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/kex.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/kex.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/known_hosts.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/known_hosts.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/known_hosts.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/known_hosts.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/known_hosts.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/known_hosts.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/legacy.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/legacy.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/legacy.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/legacy.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/legacy.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/legacy.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/libcrypto.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/libcrypto.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/libcrypto.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/libcrypto.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/libcrypto.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/libcrypto.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/log.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/log.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/log.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/log.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/log.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/log.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/match.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/match.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/match.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/match.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/match.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/match.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/messages.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/messages.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/messages.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/messages.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/messages.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/messages.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/misc.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/misc.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/misc.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/misc.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/misc.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/misc.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/options.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/options.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/options.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/options.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/options.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/options.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/packet.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/packet.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/packet.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/packet.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet_cb.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/packet_cb.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/packet_cb.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet_cb.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/packet_cb.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/packet_cb.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet_crypt.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/packet_crypt.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/packet_crypt.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet_crypt.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/packet_crypt.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/packet_crypt.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pcap.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/pcap.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/pcap.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pcap.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/pcap.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/pcap.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/pki.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/pki.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/pki.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/pki.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_container_openssh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/pki_container_openssh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/pki_container_openssh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_container_openssh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/pki_container_openssh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/pki_container_openssh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_ed25519.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/pki_ed25519.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/pki_ed25519.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_ed25519.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/pki_ed25519.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/pki_ed25519.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/poll.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/poll.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/poll.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/poll.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/poll.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/poll.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/session.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/session.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/session.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/session.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/session.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/session.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/scp.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/scp.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/scp.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/scp.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/scp.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/scp.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/socket.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/socket.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/socket.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/socket.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/socket.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/socket.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/string.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/string.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/string.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/string.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/string.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/string.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/threads.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/threads.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/threads.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/threads.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/threads.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/threads.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/wrapper.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/wrapper.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/wrapper.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/wrapper.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/wrapper.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/wrapper.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/bcrypt_pbkdf.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/external/bcrypt_pbkdf.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/external/bcrypt_pbkdf.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/bcrypt_pbkdf.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/bcrypt_pbkdf.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/bcrypt_pbkdf.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/blowfish.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/external/blowfish.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/external/blowfish.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/blowfish.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/blowfish.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/blowfish.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/ed25519.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/external/ed25519.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/external/ed25519.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/ed25519.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/ed25519.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/ed25519.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/fe25519.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/external/fe25519.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/external/fe25519.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/fe25519.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/fe25519.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/fe25519.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/ge25519.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/external/ge25519.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/external/ge25519.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/ge25519.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/ge25519.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/ge25519.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/sc25519.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/external/sc25519.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/external/sc25519.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/sc25519.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/sc25519.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/sc25519.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_crypto.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/pki_crypto.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/pki_crypto.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_crypto.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/pki_crypto.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/pki_crypto.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/sftp.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/sftp.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/sftp.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/sftp.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/sftp.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/sftp.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/sftpserver.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/sftpserver.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/sftpserver.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/sftpserver.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/sftpserver.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/sftpserver.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/server.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/server.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/server.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/server.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/server.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/server.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/bind.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/bind.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/bind.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/bind.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/bind.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/bind.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/gzip.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/gzip.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/gzip.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/gzip.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/gzip.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/gzip.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/gssapi.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/gssapi.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/gssapi.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/gssapi.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/gssapi.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/gssapi.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src -I/root/netconf/3rdparty/libssh-0.7.2/src -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/curve25519_ref.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/external/curve25519_ref.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/external/curve25519_ref.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/curve25519_ref.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/curve25519_ref.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/external/curve25519_ref.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/src/threads",
-  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/root/netconf/3rdparty/libssh-0.7.2/build/src/threads -I/root/netconf/3rdparty/libssh-0.7.2/src/threads -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build -I/root/netconf/3rdparty/libssh-0.7.2    -fvisibility=hidden -o CMakeFiles/ssh_threads_shared.dir/pthread.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/src/threads/pthread.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/src/threads/pthread.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src/threads",
+  "command": "/usr/bin/gcc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -fPIC -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src/threads -I/home/yangg/netconf/3rdparty/libssh-0.7.2/src/threads -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build -I/home/yangg/netconf/3rdparty/libssh-0.7.2    -fvisibility=hidden -o CMakeFiles/ssh_threads_shared.dir/pthread.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/src/threads/pthread.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/src/threads/pthread.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/exec.dir/exec.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/exec.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/exec.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/exec.dir/exec.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/exec.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/exec.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/exec.dir/authentication.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/exec.dir/authentication.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/exec.dir/knownhosts.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/exec.dir/knownhosts.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/exec.dir/connect_ssh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/exec.dir/connect_ssh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libssh_scp.dir/libssh_scp.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/libssh_scp.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/libssh_scp.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libssh_scp.dir/libssh_scp.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/libssh_scp.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/libssh_scp.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libssh_scp.dir/authentication.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libssh_scp.dir/authentication.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libssh_scp.dir/knownhosts.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libssh_scp.dir/knownhosts.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libssh_scp.dir/connect_ssh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libssh_scp.dir/connect_ssh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/c++    -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libsshpp.dir/libsshpp.cpp.o -c /root/netconf/3rdparty/libssh-0.7.2/examples/libsshpp.cpp",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/libsshpp.cpp"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/c++    -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libsshpp.dir/libsshpp.cpp.o -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/libsshpp.cpp",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/libsshpp.cpp"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/c++    -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o -c /root/netconf/3rdparty/libssh-0.7.2/examples/libsshpp_noexcept.cpp",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/libsshpp_noexcept.cpp"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/c++    -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/libsshpp_noexcept.cpp",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/libsshpp_noexcept.cpp"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/proxy.dir/proxy.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/proxy.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/proxy.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/proxy.dir/proxy.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/proxy.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/proxy.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesftp.dir/samplesftp.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/samplesftp.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/samplesftp.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesftp.dir/samplesftp.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/samplesftp.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/samplesftp.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesftp.dir/authentication.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesftp.dir/authentication.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesftp.dir/knownhosts.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesftp.dir/knownhosts.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesftp.dir/connect_ssh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesftp.dir/connect_ssh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplessh.dir/sample.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/sample.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/sample.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplessh.dir/sample.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/sample.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/sample.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplessh.dir/authentication.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplessh.dir/authentication.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplessh.dir/knownhosts.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplessh.dir/knownhosts.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplessh.dir/connect_ssh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplessh.dir/connect_ssh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesshd-cb.dir/samplesshd-cb.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-cb.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-cb.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesshd-cb.dir/samplesshd-cb.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-cb.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-cb.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-kbdint.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-kbdint.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-kbdint.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/samplesshd-kbdint.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/scp_download.dir/scp_download.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/scp_download.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/scp_download.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/scp_download.dir/scp_download.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/scp_download.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/scp_download.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/scp_download.dir/authentication.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/scp_download.dir/authentication.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/scp_download.dir/knownhosts.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/scp_download.dir/knownhosts.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/scp_download.dir/connect_ssh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/scp_download.dir/connect_ssh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/senddata.dir/senddata.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/senddata.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/senddata.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/senddata.dir/senddata.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/senddata.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/senddata.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/senddata.dir/authentication.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/senddata.dir/authentication.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/senddata.dir/knownhosts.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/senddata.dir/knownhosts.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/senddata.dir/connect_ssh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/senddata.dir/connect_ssh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/ssh_server_fork.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/ssh_server_fork.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/ssh_server_fork.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/ssh_server_fork.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/sshnetcat.dir/sshnetcat.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/sshnetcat.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/sshnetcat.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/sshnetcat.dir/sshnetcat.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/sshnetcat.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/sshnetcat.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/sshnetcat.dir/authentication.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/sshnetcat.dir/authentication.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/authentication.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/sshnetcat.dir/knownhosts.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/sshnetcat.dir/knownhosts.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/knownhosts.c"
 },
 {
-  "directory": "/root/netconf/3rdparty/libssh-0.7.2/build/examples",
-  "command": "/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/root/netconf/3rdparty/libssh-0.7.2/build/examples -I/root/netconf/3rdparty/libssh-0.7.2/examples -I/root/netconf/3rdparty/libssh-0.7.2/include -I/root/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/sshnetcat.dir/connect_ssh.c.o   -c /root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
-  "file": "/root/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
+  "directory": "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples",
+  "command": "/usr/bin/gcc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE64_SOURCE -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/examples -I/home/yangg/netconf/3rdparty/libssh-0.7.2/include -I/home/yangg/netconf/3rdparty/libssh-0.7.2/build    -o CMakeFiles/sshnetcat.dir/connect_ssh.c.o   -c /home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c",
+  "file": "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/connect_ssh.c"
 }
 ]

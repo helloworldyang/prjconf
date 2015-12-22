@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/ssh_shared.dir/agent.c.o"
   "CMakeFiles/ssh_shared.dir/auth.c.o"
   "CMakeFiles/ssh_shared.dir/base64.c.o"
@@ -59,6 +59,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/ssh_shared.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/ssh_shared.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
