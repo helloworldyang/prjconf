@@ -702,6 +702,9 @@ void listen_loop(int do_init) {
     }
 }
 
+
+int sock;
+                                         
 int main(int argc, char** argv) {
     struct sigaction action;
     sigset_t block_mask;
@@ -829,7 +832,16 @@ restart:
 
     server_start = 0;
     nc_verb_verbose("Netopeer server successfully initialized.");
-
+    
+    /*create socket for translator*/
+    if ((sock = socket(AF_INET, SOCK_DGRAM, 0)) == -1) {
+        perror("socket");
+        return EXIT_FAILURE;
+     } 
+    else {
+    printf("create socket.\n\r");
+    }
+    
     listen_loop(listen_init);
 
     /* unload Netopeer module -> unload all modules */
@@ -866,6 +878,7 @@ restart:
      *have been allocated by the parser.
      */
     xmlCleanupParser();
+    close(sock);
 
     return EXIT_SUCCESS;
 }

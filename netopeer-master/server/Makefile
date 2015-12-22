@@ -87,7 +87,7 @@ CONFIGURATOR_SRCS = configurator/setup.py \
 	configurator/netopeer/*.py.in
 
 CFLAGS = -Wall -Wextra -g -O0 -DDEBUG -pthread -DNP_SSH -DNP_TLS
-CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2
+CPPFLAGS =   -DRCSID=\"$(IDGIT)\" -I/usr/include/libxml2 -I/home/yangg/netconf/libnetconf-master/src
 DEFINE = -DBINDIR=\"$(BINDIR)\" -DCFG_DIR=\"$(CFGDIR)\" -DMODULES_CFG_DIR=\"$(DESTDIR)/$(modulesdir)/\" -DVERSION=\"$(VERSION)\"
 
 OBJDIR= .obj

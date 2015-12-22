@@ -1571,7 +1571,8 @@ static int nc_session_send(struct nc_session* session, struct nc_msg *msg)
 	if (session->version == NETCONFV11) {
 		text = NC_V11_END_MSG;
 	} else { /* NETCONFV10 */
-		text = NC_V10_END_MSG;
+#define NC_V10_END_MSG_v2      "\n]]>]]>\n"
+        text = NC_V10_END_MSG_v2;
 	}
 	c = 0;
 	do {

@@ -61,6 +61,9 @@
 #include <libssh/callbacks.h>
 #include <libssh/server.h>
 
+#include "netconf_internal.h"
+#include "messages_internal.h"
+
 #include "../server.h"
 
 static const char rcsid[] __attribute__((used)) ="$Id: "__FILE__": "RCSID" $";
@@ -451,6 +454,8 @@ int np_ssh_client_netconf_rpc(struct client_struct_ssh* client) {
 	int closing = 0, skip_sleep = 0;
 	struct nc_err* err;
 	struct chan_struct* chan;
+    int len = 0, len_recv = 0;
+    char *text_send, *text_recv;
 
     /* killed me put this log here, so comments it. 
      * otherwise the SSH heartbeat message will also trigger it
@@ -506,6 +511,11 @@ int np_ssh_client_netconf_rpc(struct client_struct_ssh* client) {
 		}
 
 		++skip_sleep;
+
+        /* Julie: Get plain text from RPC */
+        xmlDocDumpFormatMemory (rpc->doc, (xmlChar**) (&text_send), &len, NC_CONTENT_FORMATTED);
+        pverb("plain text to translator: %s", text_send); 
+        pverb("len is %d\n", len);
 
 		/* process the new RPC */
 		switch (nc_rpc_get_op(rpc)) {
@@ -617,6 +627,7 @@ int np_ssh_client_netconf_rpc(struct client_struct_ssh* client) {
 			break;
 
 		default:
+#if 0 
 			if ((rpc_reply = ncds_apply_rpc2all(chan->nc_sess, rpc, NULL)) == NULL) {
 				err = nc_err_new(NC_ERR_OP_FAILED);
 				nc_err_set(err, NC_ERR_PARAM_MSG, "For unknown reason no reply was returned by the library.");
@@ -627,6 +638,22 @@ int np_ssh_client_netconf_rpc(struct client_struct_ssh* client) {
 				nc_reply_free(rpc_reply);
 				rpc_reply = nc_reply_error(err);
 			}
+#else
+            /* Julie: send and receive plain rpc msg to/from translator*/
+            if ((len_recv= nc_send_recv_trans(text_send, len, &text_recv)) <= 0) {
+                pverb("For unknown reason no reply was returned by the translator.\n");
+            } else {
+                pverb("plain text received from translator: %s\n", text_recv);
+            }
+            free(text_send);
+            /* Julie: need to translate plain text to rpc_reply */
+            rpc_reply = nc_reply_build(text_recv);
+            if (rpc_reply == NULL) {
+                pverb("failed to translate plain text to rpc_reply\n");
+            }else {
+                pverb("succeed to translate plain text to rpc_reply\n");
+            }
+#endif
 
 			break;
 		}
@@ -1065,7 +1092,55 @@ int np_ssh_create_client(struct client_struct_ssh* new_client, ssh_bind sshbind)
 
 	return 0;
 }
+#define PORT_TRANS 7800
+/* steven ip: 135.252.129.78, tmp ip: 127.0.0.1 */
+#define IPADDR_TRANS "127.0.0.1"
+/* return value: -1: send/recv error, 0: blank message, >0: normal case */
+extern int sock;
+static char recvbuff[4*1024];
+int nc_send_recv_trans(char* rpc_text, int inlen, char** buff_recv){
+    static struct sockaddr_in s_addr;
+    static int addr_len = 0;
+    int len;
+    if ((rpc_text == NULL)||(buff_recv == NULL)||(inlen < 0)){
+        return -1;
+    } 
+
+    if(addr_len == 0)
+    {
+        s_addr.sin_family = AF_INET;
+        s_addr.sin_port = htons(PORT_TRANS);
+        s_addr.sin_addr.s_addr = inet_addr(IPADDR_TRANS); 
+        addr_len = sizeof(s_addr);
+    }
+
+    /*send rpc request to translator*/
+    len = sendto(sock, rpc_text, strlen(rpc_text), 0,
+                 (struct sockaddr *) &s_addr, addr_len);
+    if (len < 0) {
+        printf("\n\rsend error.\n\r");
+        return -1;
+    }
+
+    printf("send success.\n\r");
+
+    /*receive rpc reply from translator*/
+    len = recvfrom(sock, recvbuff, sizeof(recvbuff) - 1, 0,
+    (struct sockaddr *) &s_addr, &addr_len);
+    if (len < 0) {
+        perror("recvfrom");
+        return -1;
+    }
+    recvbuff[len] = '\0';
+    *buff_recv = recvbuff;
+    printf("recvfrom %s:%d,%s\n, len is %d\n",
+    inet_ntoa(s_addr.sin_addr), ntohs(s_addr.sin_port), *buff_recv, len);
+
+    return len;
+
+}
 
 void np_ssh_cleanup(void) {
 	/* nothing to do here, libssh finalize is called by libnetconf */
 }
+

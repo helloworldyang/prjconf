@@ -70,7 +70,7 @@
 #define BASE_READ_BUFFER_SIZE 2048
 
 /* end tags of NETCONF messages */
-#define NC_V10_END_MSG "]]>]]>"
+#define NC_V10_END_MSG "\n]]>]]>\n"
 #define NC_V11_END_MSG "\n##\n"
 
 /* environment variable with verbose level */
