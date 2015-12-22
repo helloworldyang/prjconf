@@ -1,20 +1,14 @@
 *.o
-*.so
-*.so.*
-*.a
-*.la
 *.html
 *.core
 *.out
 *.pyc
 *cscope*
-scope
 *.tmp
 *.swp
 *.lock
 core.*
 *.log
 *.df
-*.class
 
 !/.gitignore
