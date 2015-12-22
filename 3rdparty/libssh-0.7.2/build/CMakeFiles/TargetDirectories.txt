@@ -1,0 +1,15 @@
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/libsshpp.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/senddata.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/exec.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/samplesshd-kbdint.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/scp_download.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/libssh_scp.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/libsshpp_noexcept.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/ssh_server_fork.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src/threads/CMakeFiles/ssh_threads_shared.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/sshnetcat.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src/CMakeFiles/ssh_shared.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/samplesftp.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/samplessh.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/samplesshd-cb.dir
+/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/proxy.dir
