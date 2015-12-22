@@ -71,7 +71,6 @@
 #include <libxml/tree.h>
 #include <libxml/xpath.h>
 #include <libxml/xpathInternals.h>
-int nc_send_recv_trans(char* rpc_text, int inlen, char* buff_recv);
 
 static const char rcsid[] __attribute__((used)) ="$Id: "__FILE__": "RCSID" $";
 
