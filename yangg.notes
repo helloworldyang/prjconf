@@ -1,5 +1,8 @@
+######################################git hub link################
 https://github.com/helloworldyang/prjconf.git
+######################################git hub link################
 
+######################################configure and build######################
 ## build the libnetconf with debug logs and tls lib support
 ## libs installed into /usr/lib64
 ./configure --enable-debug --enable-tls --prefix=/usr --libdir=/usr/lib64
@@ -19,7 +22,14 @@ https://github.com/helloworldyang/prjconf.git
 export LDFLAGS="-L/lib64 -L/usr/lib64 -L/home/yangg/netconf/libs /home/yangg/netconf/libs/libnetconf.a"
 ./configure --enable-debug --enable-tls 
 
+#encountering the "aclocal-1.15 is missing on your system"
+#I encounter this issue when building libxml2
+If running `touch configure.ac aclocal.m4 configure Makefile.am Makefile.in`, then re-running configure and make, fixes it.
+If it doesn't, try running `autoreconf -ivf`.
+######################################configure and build######################
 
+
+######################################Static library link######################
 # make[1]: *** [csfd] Error 1
 # make[1]: Leaving directory `/usr/local/sinasrv/PyCSF-1.0_Alpha_3@CSF-3.1.2_G2'
 # 原因：
@@ -35,14 +45,24 @@ export LDFLAGS="-L/lib64 -L/usr/lib64 -L/home/yangg/netconf/libs /home/yangg/net
 ---SERVER_LIBS = -lcrypto -lssl -lnetconf -lcrypt -lssh -lnetconf -lnetconf   -lxml2
 +++SERVER_LIBS = /home/yangg/netconf/libnetconf-master/.libs/libnetconf.a -lcrypto -lssl -lcrypt -lssh -lxml2 
 +++SERVER_LIBS += -lcurl  -lssl -lssh_threads -lssh -L/usr/lib64 -lxslt -lxml2 -lz -ldl -lm -lxml2 -lz -lm -ldl  -ldl -lssl -lrt
+######################################Static library link######################
 
+
+
+
+######################################netopeer modules system path######################
 ## the netopeer internal datastore path is set at NC_WORKINGDIR_PATH for C code
 # for python, it's set at /home/yangg/netconf/libnetconf-master/libnetconf.pc, which will be installed at pkg-config directory
 # python will get that value via 
 # "# pkg-config libnetconf --variable=ncworkingdir"
 # /var/lib/libnetconf/
-
 >cat global_defs.mk 
 ROOTDIR = /home/yangg/netconf
 NC_WORKINGDIR_PATH = $(DESTDIR)//var/lib/libnetconf/
+
+also, the netopeer/server, make install will also install many module files to system dir
+like the /usr/local/... or /var/lib/...
+######################################netopeer modules system path######################
+
+
 
