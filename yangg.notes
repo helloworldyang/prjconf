@@ -1,3 +1,5 @@
+https://github.com/helloworldyang/prjconf.git
+
 ## build the libnetconf with debug logs and tls lib support
 ## libs installed into /usr/lib64
 ./configure --enable-debug --enable-tls --prefix=/usr --libdir=/usr/lib64
