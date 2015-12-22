@@ -3,18 +3,18 @@ libxml2-py.lo: libxml2-py.c /usr/include/stdc-predef.h \
  /usr/include/python2.7/pyconfig.h /usr/include/bits/wordsize.h \
  /usr/include/python2.7/pyconfig-64.h \
  /usr/include/python2.7/pymacconfig.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/syslimits.h \
  /usr/include/limits.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
  /usr/include/bits/xopen_lim.h /usr/include/bits/stdio_lim.h \
  /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stddef.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stdarg.h \
  /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
  /usr/include/string.h /usr/include/xlocale.h /usr/include/bits/string.h \
  /usr/include/bits/string2.h /usr/include/endian.h \
@@ -28,12 +28,14 @@ libxml2-py.lo: libxml2-py.c /usr/include/stdc-predef.h \
  /usr/include/bits/select.h /usr/include/bits/sigset.h \
  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
  /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/assert.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/assert.h \
  /usr/include/python2.7/pyport.h /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
  /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
  /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
@@ -109,9 +111,9 @@ libxml2-py.lo: libxml2-py.c /usr/include/stdc-predef.h \
 
 /usr/include/python2.7/pymacconfig.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h:
+/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/limits.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h:
+/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -137,7 +139,7 @@ libxml2-py.lo: libxml2-py.c /usr/include/stdc-predef.h \
 
 /usr/include/stdio.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stddef.h:
 
 /usr/include/bits/types.h:
 
@@ -149,7 +151,7 @@ libxml2-py.lo: libxml2-py.c /usr/include/stdc-predef.h \
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stdarg.h:
 
 /usr/include/bits/sys_errlist.h:
 
@@ -207,6 +209,8 @@ libxml2-py.lo: libxml2-py.c /usr/include/stdc-predef.h \
 
 /usr/include/alloca.h:
 
+/usr/include/bits/stdlib-bsearch.h:
+
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/unistd.h:
@@ -225,13 +229,17 @@ libxml2-py.lo: libxml2-py.c /usr/include/stdc-predef.h \
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h:
+/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stdint.h:
 
 /usr/include/stdint.h:
 
 /usr/include/bits/wchar.h:
 
 /usr/include/math.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/bits/huge_val.h:
 
