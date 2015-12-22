@@ -1,12 +1,12 @@
 testlimits.o: testlimits.c /usr/include/stdc-predef.h libxml.h config.h \
  include/libxml/xmlversion.h include/libxml/xmlexports.h \
- /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
- /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stddef.h \
+ /usr/include/ansidecl.h /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stdarg.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
@@ -22,8 +22,8 @@ testlimits.o: testlimits.c /usr/include/stdc-predef.h libxml.h config.h \
  /usr/include/bits/stat.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h include/libxml/parser.h \
  include/libxml/tree.h \
- /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/limits.h \
- /usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/syslimits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h include/libxml/xmlstring.h \
@@ -33,9 +33,8 @@ testlimits.o: testlimits.c /usr/include/stdc-predef.h libxml.h config.h \
  include/libxml/encoding.h /usr/include/iconv.h include/libxml/xmlIO.h \
  include/libxml/globals.h include/libxml/SAX.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/alloca.h /usr/include/bits/stdlib-bsearch.h \
- /usr/include/bits/stdlib-float.h include/libxml/xlink.h \
- include/libxml/SAX2.h include/libxml/xmlmemory.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ include/libxml/xlink.h include/libxml/SAX2.h include/libxml/xmlmemory.h \
  include/libxml/threads.h include/libxml/parserInternals.h \
  include/libxml/HTMLparser.h include/libxml/chvalid.h \
  include/libxml/uri.h include/libxml/xmlreader.h include/libxml/relaxng.h \
@@ -51,6 +50,8 @@ include/libxml/xmlversion.h:
 
 include/libxml/xmlexports.h:
 
+/usr/include/ansidecl.h:
+
 /usr/include/stdio.h:
 
 /usr/include/features.h:
@@ -63,7 +64,7 @@ include/libxml/xmlexports.h:
 
 /usr/include/gnu/stubs-64.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stddef.h:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
 
 /usr/include/bits/types.h:
 
@@ -75,7 +76,7 @@ include/libxml/xmlexports.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/stdarg.h:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -141,9 +142,9 @@ include/libxml/parser.h:
 
 include/libxml/tree.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/limits.h:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/5.1.1/include/syslimits.h:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -188,8 +189,6 @@ include/libxml/SAX.h:
 /usr/include/bits/waitstatus.h:
 
 /usr/include/alloca.h:
-
-/usr/include/bits/stdlib-bsearch.h:
 
 /usr/include/bits/stdlib-float.h:
 

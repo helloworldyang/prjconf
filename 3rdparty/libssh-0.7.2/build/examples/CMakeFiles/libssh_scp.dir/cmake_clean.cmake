@@ -1,4 +1,4 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/libssh_scp.dir/libssh_scp.c.o"
   "CMakeFiles/libssh_scp.dir/authentication.c.o"
   "CMakeFiles/libssh_scp.dir/knownhosts.c.o"
@@ -8,6 +8,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C)
-  include(CMakeFiles/libssh_scp.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang C)
+  INCLUDE(CMakeFiles/libssh_scp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

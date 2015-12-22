@@ -1,22 +1,25 @@
 # The set of languages for which implicit dependencies are needed:
-set(CMAKE_DEPENDS_LANGUAGES
+SET(CMAKE_DEPENDS_LANGUAGES
   "C"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/yangg/netconf/3rdparty/libssh-0.7.2/examples/proxy.c" "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/proxy.dir/proxy.c.o"
+SET(CMAKE_DEPENDS_CHECK_C
+  "/root/netconf/3rdparty/libssh-0.7.2/examples/proxy.c" "/root/netconf/3rdparty/libssh-0.7.2/build/examples/CMakeFiles/proxy.dir/proxy.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+SET(CMAKE_C_COMPILER_ID "GNU")
+
+# Targets to which this target links.
+SET(CMAKE_TARGET_LINKED_INFO_FILES
+  "/root/netconf/3rdparty/libssh-0.7.2/build/src/CMakeFiles/ssh_shared.dir/DependInfo.cmake"
+  )
 
 # The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+SET(CMAKE_C_TARGET_INCLUDE_PATH
   "examples"
   "../examples"
   "../include"
   "."
   )
-
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/yangg/netconf/3rdparty/libssh-0.7.2/build/src/CMakeFiles/ssh_shared.dir/DependInfo.cmake"
-  )
+SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -1,4 +1,4 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/sshnetcat.dir/sshnetcat.c.o"
   "CMakeFiles/sshnetcat.dir/authentication.c.o"
   "CMakeFiles/sshnetcat.dir/knownhosts.c.o"
@@ -8,6 +8,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C)
-  include(CMakeFiles/sshnetcat.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang C)
+  INCLUDE(CMakeFiles/sshnetcat.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

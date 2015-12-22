@@ -2,7 +2,7 @@
 /* config.h.in.  Generated from configure.in by autoheader.  */
 
 /* Define to 1 if you have the <ansidecl.h> header file. */
-/* #undef HAVE_ANSIDECL_H */
+#define HAVE_ANSIDECL_H 1
 
 /* Define to 1 if you have the `asctime' function. */
 #define HAVE_ASCTIME 1
