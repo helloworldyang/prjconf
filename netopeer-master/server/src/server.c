@@ -560,7 +560,20 @@ void listen_loop(int do_init) {
         /* New client full structure creation */
         if (new_client != NULL) {
 
-        pwarn("yangg check point6");
+#if 0
+            char host[64];
+            struct sockaddr_in* saddr4;
+            host[0] = 0;
+            saddr4 = (struct sockaddr_in*)((struct sockaddr*)&new_client->saddr);
+            //inet_ntop(AF_INET, &(saddr4->sin_addr), host, INET6_ADDRSTRLEN);
+#else
+            char hoststr[NI_MAXHOST];
+            char portstr[NI_MAXSERV];
+            int rc = getnameinfo((struct sockaddr *)&new_client->saddr, 
+                    sizeof(struct sockaddr_storage), hoststr, sizeof(hoststr), portstr, sizeof(portstr), NI_NUMERICHOST | NI_NUMERICSERV);
+#endif
+            pwarn("yangg check point6, rc:%d, client from <<< [%s]:%s >>>", rc, hoststr, portstr);
+
             /* Maximum number of sessions check */
             if (netopeer_options.max_sessions > 0) {
                 ret = 0;
@@ -598,7 +611,7 @@ void listen_loop(int do_init) {
                 }
             }
 
-        pwarn("yangg check point7");
+            pwarn("yangg check point7");
             switch (new_client->transport) {
 #ifdef NP_SSH
                 case NC_TRANSPORT_SSH:
@@ -624,14 +637,14 @@ void listen_loop(int do_init) {
                     ret = 1;
             }
 
-        pwarn("yangg check point8");
+            pwarn("yangg check point8");
             /* client is not valid, some error occured */
             if (ret != 0) {
                 clear_broadcast_callhome_client(1);
                 continue;
             }
 
-        pwarn("yangg check point9");
+            pwarn("yangg check point9");
             /* add the client into the global clients structure */
             /* GLOBAL WRITE LOCK */
             pthread_rwlock_wrlock(&netopeer_state.global_lock);
@@ -639,7 +652,7 @@ void listen_loop(int do_init) {
             /* GLOBAL WRITE UNLOCK */
             pthread_rwlock_unlock(&netopeer_state.global_lock);
 
-        pwarn("yangg check pointa");
+            pwarn("yangg check pointa");
             /* start the client thread */
             if ((ret = pthread_create((pthread_t*)&new_client->tid, NULL, client_main_thread, (void*)new_client)) != 0) {
                 nc_verb_error("%s: failed to create a thread (%s)", __func__, strerror(ret));
@@ -673,11 +686,11 @@ void listen_loop(int do_init) {
                 clear_broadcast_callhome_client(1);
                 continue;
             }
-        pwarn("yangg check pointb");
+            pwarn("yangg check pointb");
 
             /* Signal app loops if needed */
             clear_broadcast_callhome_client(0);
-        pwarn("yangg check pointc");
+            pwarn("yangg check pointc");
         }
 
     } while (!quit && !restart_soft);
@@ -729,7 +742,7 @@ void listen_loop(int do_init) {
 }
 
 int sock;
-                                         
+
 int main(int argc, char** argv) {
     struct sigaction action;
     sigset_t block_mask;
@@ -815,14 +828,14 @@ int main(int argc, char** argv) {
      * between the version it was compiled for and the actual shared
      * library used.
      */
-     LIBXML_TEST_VERSION
+        LIBXML_TEST_VERSION
 
 
-        /* initialize library including internal datastores and maybee something more */
-        if (nc_init(NC_INIT_ALL | NC_INIT_MULTILAYER) < 0) {
-            nc_verb_error("Library initialization failed.");
-            return EXIT_FAILURE;
-        }
+            /* initialize library including internal datastores and maybee something more */
+            if (nc_init(NC_INIT_ALL | NC_INIT_MULTILAYER) < 0) {
+                nc_verb_error("Library initialization failed.");
+                return EXIT_FAILURE;
+            }
 
     server_start = 1;
 
@@ -862,9 +875,9 @@ restart:
     if ((sock = socket(AF_INET, SOCK_DGRAM, 0)) == -1) {
         perror("socket");
         return EXIT_FAILURE;
-     } 
+    } 
     else {
-    printf("create socket.\n\r");
+        printf("create socket.\n\r");
     }
     listen_loop(listen_init);
 
@@ -915,11 +928,11 @@ restart:
 
 void __attribute__((__no_instrument_function__)) __cyg_profile_func_enter(void *this_func, void *call_site)
 {
-        IN_DUMP(this_func, call_site);
+    IN_DUMP(this_func, call_site);
 }
 void __attribute__((__no_instrument_function__)) __cyg_profile_func_exit(void *this_func, void *call_site)
 {
-        OUT_DUMP(this_func, call_site);
+    OUT_DUMP(this_func, call_site);
 }
 
 #endif
