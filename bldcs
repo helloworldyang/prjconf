@@ -1,0 +1,74 @@
+# generate file containing the source file list
+
+DIR_LIST='dir_list.txt'
+DIR_TMP_LIST=`mktemp /tmp/${USER}.dir_tmp_list.XXXXXX`
+DIR_TMP_LIST2=`mktemp /tmp/${USER}.dir_tmp_list2.XXXXXX`
+FILELIST='yg.file.cscope.tmp'
+CSCOPE_FILELIST='yg.file.cscope'
+
+\rm -f ${FILELIST}
+\rm -f ${CSCOPE_FILELIST}
+\rm -f cscope.*
+
+if [ -f ${DIR_LIST} ]
+then
+    echo "Generating source file list from dir_list.txt..."
+    {
+        while read DIRNAME;
+        do
+            FINEL_DIR=`echo "${DIRNAME}"|sed 's/\#.*//'|sed 's/[[:space:]]//g'`
+            if [ -n "${FINEL_DIR}" ];then
+                if [ -d "${FINEL_DIR}" ];then
+                    #find all subdir in this dir
+                    \find  ${FINEL_DIR} -type d >> ${DIR_TMP_LIST} 2> /dev/null
+                elif [ -f "${FINEL_DIR}" ];then
+                    \echo "${FINEL_DIR}" >> ${FILELIST} 2>/dev/null
+                fi
+            fi
+        done
+    } < ${DIR_LIST}
+
+    \sort  ${DIR_TMP_LIST} | uniq >> ${DIR_TMP_LIST2}
+
+    {
+        while read DIRNAME
+        do
+            FINEL_DIR=`echo "${DIRNAME}"|sed 's/\#.*//'|sed 's/[[:space:]]//g'`
+            if [ -n "${FINEL_DIR}" ];then
+                if [ -d "${FINEL_DIR}" ];then
+                    echo -n "." # if want to print dir name =>  echo "${FINEL_DIR}"
+                    \ls -1 ${FINEL_DIR}/*.[chx] >> ${FILELIST} 2> /dev/null
+                fi
+            fi
+        done
+    } < ${DIR_TMP_LIST2}
+
+else
+    find ./  \
+    -type f \
+    -a \
+    \( \
+    \( -regex '.*\.c' -o -regex '.*\.h' -o -regex ".*\.cpp" -o -regex ".*\.hpp" -o -regex ".*\.cc" \)\
+    -o \( -regex '.*\.C' -o -regex '.*\.H' -o -regex ".*\.CPP" -o -regex ".*\.HPP" -o -regex ".*\.CC" \)\
+    \) \
+    -a ! -regex ".*tmp\/.*" \
+    -a ! -regex ".*trace.c" \
+    -a ! -regex ".*linux_test\/.*" \
+    -fprint ${FILELIST}
+fi
+# build reference file
+
+echo "Building reference file ..."
+
+\sort  ${FILELIST} | uniq >> ${CSCOPE_FILELIST}
+
+cscope -b -u -q -i ${CSCOPE_FILELIST}
+
+# generate file 'scope'
+#echo "cscope -d" > scope
+#chmod +x scope
+
+echo "It's ready to use cscope utility now !!!"
+#echo "     "
+#echo "Please run <scope> to initiate the utility"
+
