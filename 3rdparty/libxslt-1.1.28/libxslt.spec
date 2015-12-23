@@ -126,5 +126,5 @@ rm -fr %{buildroot}
 %doc python/tests/*.xsl
 
 %changelog
-* Tue Dec 22 2015 Daniel Veillard <veillard@redhat.com>
+* Wed Dec 23 2015 Daniel Veillard <veillard@redhat.com>
 - upstream release 1.1.28 see http://xmlsoft.org/XSLT/news.html
