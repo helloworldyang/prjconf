@@ -672,7 +672,9 @@ int np_ssh_client_netconf_rpc(struct client_struct_ssh* client) {
         }
 
         /* send reply */
+        pverb("yangg send reply start");
         nc_session_send_reply(chan->nc_sess, rpc, rpc_reply);
+        pverb("yangg send reply done");
         nc_reply_free(rpc_reply);
         nc_rpc_free(rpc);
 

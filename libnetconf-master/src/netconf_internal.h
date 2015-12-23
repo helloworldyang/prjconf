@@ -208,6 +208,8 @@
 #	define MASK_PERM 0000
 #endif
 
+#define DEBUG_THREADS 
+
 /* libnetconf's message printing */
 void prv_printf(NC_VERB_LEVEL level, const char *format, ...);
 extern volatile uint8_t verbose_level;
