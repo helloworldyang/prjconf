@@ -240,9 +240,10 @@ void* client_main_thread(void* arg) {
 
     do {
         skip_sleep = 0;
-
+#if 0
         /* GLOBAL READ LOCK */
         pthread_rwlock_rdlock(&netopeer_state.global_lock);
+#endif
 
         switch (client->transport) {
 #ifdef NP_SSH
@@ -261,8 +262,10 @@ void* client_main_thread(void* arg) {
                 nc_verb_error("%s: internal error (%s:%d)", __func__, __FILE__, __LINE__);
         }
 
+#if 0
         /* GLOBAL READ UNLOCK */
         pthread_rwlock_unlock(&netopeer_state.global_lock);
+#endif
 
         if (!skip_sleep) {
             /* we did not do anything productive, so let the thread sleep */
@@ -632,7 +635,14 @@ void listen_loop(int do_init) {
             /* start the client thread */
             if ((ret = pthread_create((pthread_t*)&new_client->tid, NULL, client_main_thread, (void*)new_client)) != 0) {
                 nc_verb_error("%s: failed to create a thread (%s)", __func__, strerror(ret));
+
+                /* GLOBAL WRITE LOCK */
+                pthread_rwlock_wrlock(&netopeer_state.global_lock);
+
                 np_client_detach(&netopeer_state.clients, new_client);
+
+                /* GLOBAL WRITE UNLOCK */
+                pthread_rwlock_unlock(&netopeer_state.global_lock);
 
                 new_client->tid = 0;
                 new_client->to_free = 1;

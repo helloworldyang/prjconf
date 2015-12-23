@@ -476,6 +476,7 @@ static ssh_channel sshcb_channel_open(ssh_session session, void* UNUSED(userdata
 	struct client_struct_ssh* client;
 	struct chan_struct* cur_chan;
 
+    retafdsa = 0;
 	if ((client = client_find_by_sshsession(netopeer_state.clients, session)) == NULL) {
 		nc_verb_error("%s: internal error (%s:%d)", __func__, __FILE__, __LINE__);
 		return NULL;
