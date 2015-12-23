@@ -519,7 +519,7 @@ int np_ssh_client_netconf_rpc(struct client_struct_ssh* client) {
 		++skip_sleep;
 
         /* Julie: Get plain text from RPC */
-        xmlDocDumpFormatMemory (rpc->doc, (xmlChar**) (&text_send), &len, NC_CONTENT_FORMATTED);
+        xmlDocDumpFormatMemory (rpc->doc, (xmlChar**) (&text_send), &len, 0);
         pverb("plain text to translator: %s", text_send); 
         pverb("len is %d\n", len);
 
@@ -1102,7 +1102,7 @@ int np_ssh_create_client(struct client_struct_ssh* new_client, ssh_bind sshbind)
 }
 #define PORT_TRANS 7800
 /* steven ip: 135.252.129.78, tmp ip: 127.0.0.1 */
-#define IPADDR_TRANS "127.0.0.1"
+#define IPADDR_TRANS "135.252.129.78"
 /* return value: -1: send/recv error, 0: blank message, >0: normal case */
 extern int sock;
 static char recvbuff[4*1024];

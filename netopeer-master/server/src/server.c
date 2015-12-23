@@ -539,6 +539,7 @@ void listen_loop(int do_init) {
 
         /* Callhome client check */
         /* CALLHOME LOCK */
+        //pwarn("yangg check point3"); 
         pthread_mutex_lock(&callhome_lock);
         if (callhome_app) {
             new_client = callhome_app->client;
@@ -546,14 +547,17 @@ void listen_loop(int do_init) {
         /* CALLHOME UNLOCK */
         pthread_mutex_unlock(&callhome_lock);
 
+        //pwarn("yangg check point4"); 
         /* Listen client check */
         if (new_client == NULL) {
             new_client = sock_accept(&npsock);
         }
 
+        //pwarn("yangg check point5");
         /* New client full structure creation */
         if (new_client != NULL) {
 
+        pwarn("yangg check point6");
             /* Maximum number of sessions check */
             if (netopeer_options.max_sessions > 0) {
                 ret = 0;
@@ -591,6 +595,7 @@ void listen_loop(int do_init) {
                 }
             }
 
+        pwarn("yangg check point7");
             switch (new_client->transport) {
 #ifdef NP_SSH
                 case NC_TRANSPORT_SSH:
@@ -616,12 +621,14 @@ void listen_loop(int do_init) {
                     ret = 1;
             }
 
+        pwarn("yangg check point8");
             /* client is not valid, some error occured */
             if (ret != 0) {
                 clear_broadcast_callhome_client(1);
                 continue;
             }
 
+        pwarn("yangg check point9");
             /* add the client into the global clients structure */
             /* GLOBAL WRITE LOCK */
             pthread_rwlock_wrlock(&netopeer_state.global_lock);
@@ -629,6 +636,7 @@ void listen_loop(int do_init) {
             /* GLOBAL WRITE UNLOCK */
             pthread_rwlock_unlock(&netopeer_state.global_lock);
 
+        pwarn("yangg check pointa");
             /* start the client thread */
             if ((ret = pthread_create((pthread_t*)&new_client->tid, NULL, client_main_thread, (void*)new_client)) != 0) {
                 nc_verb_error("%s: failed to create a thread (%s)", __func__, strerror(ret));
@@ -655,9 +663,11 @@ void listen_loop(int do_init) {
                 clear_broadcast_callhome_client(1);
                 continue;
             }
+        pwarn("yangg check pointb");
 
             /* Signal app loops if needed */
             clear_broadcast_callhome_client(0);
+        pwarn("yangg check pointc");
         }
 
     } while (!quit && !restart_soft);
@@ -757,7 +767,7 @@ int main(int argc, char** argv) {
     action.sa_flags = 0;
     sigaction(SIGINT, &action, NULL);
     sigaction(SIGQUIT, &action, NULL);
-    sigaction(SIGABRT, &action, NULL);
+    //sigaction(SIGABRT, &action, NULL);
     sigaction(SIGTERM, &action, NULL);
     sigaction(SIGHUP, &action, NULL);
 
