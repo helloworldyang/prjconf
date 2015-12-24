@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/dns-example.dir/sample/dns-example.c.o  -o bin/dns-example -rdynamic lib/libevent_extra.a -lssl -lcrypto -lpthread -lz -lm 

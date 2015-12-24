@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/test-init.dir/test/test-init.c.o  -o bin/test-init -rdynamic lib/libevent_extra.a -lm 

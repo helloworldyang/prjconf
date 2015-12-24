@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/le-proxy.dir/sample/le-proxy.c.o  -o bin/le-proxy -rdynamic lib/libevent_extra.a -lssl -lcrypto -lpthread -lz -lm 

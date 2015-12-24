@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/http-connect.dir/sample/http-connect.c.o  -o bin/http-connect -rdynamic lib/libevent_extra.a -lssl -lcrypto -lpthread -lz -lm 

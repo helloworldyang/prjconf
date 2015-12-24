@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/https-client.dir/sample/https-client.c.o CMakeFiles/https-client.dir/sample/openssl_hostname_validation.c.o CMakeFiles/https-client.dir/sample/hostcheck.c.o  -o bin/https-client -rdynamic lib/libevent_extra.a -lssl -lcrypto -lpthread -lz -lm 

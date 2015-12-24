@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/bench_httpclient.dir/test/bench_httpclient.c.o  -o bin/bench_httpclient -rdynamic lib/libevent_extra.a -lm 

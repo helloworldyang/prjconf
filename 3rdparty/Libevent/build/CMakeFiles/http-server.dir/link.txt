@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/http-server.dir/sample/http-server.c.o  -o bin/http-server -rdynamic lib/libevent_extra.a -lssl -lcrypto -lpthread -lz -lm 

@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/time-test.dir/sample/time-test.c.o  -o bin/time-test -rdynamic lib/libevent_extra.a -lssl -lcrypto -lpthread -lz -lm 

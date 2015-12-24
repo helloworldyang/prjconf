@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/hello-world.dir/sample/hello-world.c.o  -o bin/hello-world -rdynamic lib/libevent_extra.a -lssl -lcrypto -lpthread -lz -lm 

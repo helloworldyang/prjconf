@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/test-dumpevents.dir/test/test-dumpevents.c.o  -o bin/test-dumpevents -rdynamic lib/libevent_extra.a -lm 

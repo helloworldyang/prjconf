@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/test-weof.dir/test/test-weof.c.o  -o bin/test-weof -rdynamic lib/libevent_extra.a -lm 

@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -DNDEBUG   CMakeFiles/test-ratelim.dir/test/test-ratelim.c.o  -o bin/test-ratelim -rdynamic lib/libevent_extra.a -lm 
